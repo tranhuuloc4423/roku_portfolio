@@ -41,26 +41,26 @@ const sidebarBottomItems = [
 function SideBar() {
   const location = useLocation();
   return (
-    <aside className="flex w-[4.2vw] min-w-[40px] flex-col items-center justify-between bg-sidebarBg py-2 md:min-h-[calc(100vh-65px)]">
-      <div className="flex flex-col items-start  justify-center gap-y-1 md:gap-y-3 ">
+    <aside className="flex w-[4.2vw] min-w-[40px] flex-col items-center justify-between bg-sidebarBg md:min-h-[calc(100vh-65px)]">
+      <div className="flex w-full flex-col items-center justify-center gap-y-1 md:gap-y-3">
         {sidebarTopItems.map(({ Icon, path }) => {
           return (
-            <Link to={`${path}`} key={path}>
-              <div
-                className={`${
+            <Link
+              to={`${path}`}
+              key={path}
+              className={`${
+                location.pathname === path
+                  ? "border-l-2 border-accentColor"
+                  : ""
+              } flex w-full items-center justify-center py-4 max-sm:pl-2`}
+            >
+              <Icon
+                fill={
                   location.pathname === path
-                    ? "border-l-2 border-accentColor"
-                    : ""
-                }  p-2  max-sm:pl-2`}
-              >
-                <Icon
-                  fill={
-                    location.pathname === path
-                      ? "rgb(225, 228, 232)"
-                      : "rgb(106, 115, 125)"
-                  }
-                />
-              </div>
+                    ? "rgb(225, 228, 232)"
+                    : "rgb(106, 115, 125)"
+                }
+              />
             </Link>
           );
         })}

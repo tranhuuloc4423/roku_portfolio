@@ -32,7 +32,7 @@ function BlogItemDetails() {
           return (
             <div key={item.id}>
               <h3
-                className="flex cursor-pointer items-center border-b-[1px] border-gray-600 p-4 text-3xl font-semibold text-accentColor"
+                className="h1 flex cursor-pointer items-center border-b-[1px] border-gray-600 p-4 text-accentColor"
                 onClick={() => handleItemClick(index)}
               >
                 {item.title}
@@ -41,7 +41,7 @@ function BlogItemDetails() {
                 </div>
               </h3>
               <p
-                className={` ml-4 p-4 text-xl ${expand ? "expand animate-expand" : "animate-collapse collapse"}`}
+                className={` ml-4 p-4 text-xl ${expand ? "expand animate-expand" : "collapse animate-collapse"}`}
               >
                 {item.desc}
               </p>

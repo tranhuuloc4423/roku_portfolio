@@ -21,7 +21,7 @@ const blogs = [
           {
             title: "# Giới thiệu",
             desc: (
-              <ul className="list-decimal">
+              <ul className="h3 list-decimal">
                 <li>
                   Wokwi là nền tảng trực tuyến cho mô phỏng và kiểm tra dự án
                   điện tử.
@@ -52,10 +52,10 @@ const blogs = [
             title: "# Tại sao lại sử dụng Wokwi?",
             desc: (
               <div>
-                <div className="font-semibold">
-                  Wokwi được sử dụng vì nhiều lợi ích sau đây:
+                <div className="h2">
+                  ## Wokwi được sử dụng vì nhiều lợi ích sau đây:
                 </div>
-                <ul className="list-decimal">
+                <ul className="h3 list-decimal">
                   <li>
                     Mô phỏng và kiểm tra: Wokwi cho phép mô phỏng và kiểm tra
                     các dự án điện tử trước khi triển khai trên phần cứng thực
@@ -88,54 +88,60 @@ const blogs = [
             title: "# Các chức năng chính",
             desc: (
               <div>
-                <div>Các chức năng chính trên Wokwi bao gồm:</div>
-                <ul>
+                <div className="h2">
+                  ## Các chức năng chính trên Wokwi bao gồm:
+                </div>
+                <ul className="h3">
                   <li>
-                    Mô phỏng mạch điện tử: Wokwi cung cấp một môi trường trực
-                    tuyến cho phép bạn xây dựng và mô phỏng mạch điện tử. Bạn có
-                    thể kéo và thả linh kiện, kết nối chúng lại với nhau để tạo
-                    ra một mạch hoàn chỉnh.
+                    1. Mô phỏng mạch điện tử:
+                    <br />- Wokwi cung cấp một môi trường trực tuyến cho phép
+                    bạn xây dựng và mô phỏng mạch điện tử. Bạn có thể kéo và thả
+                    linh kiện, kết nối chúng lại với nhau để tạo ra một mạch
+                    hoàn chỉnh.
                   </li>
 
                   <li>
-                    Trình biên dịch và kiểm tra mã: Wokwi tích hợp một trình
-                    biên dịch trực tuyến cho phép bạn viết mã cho vi điều khiển
-                    và linh kiện điện tử. Bạn có thể kiểm tra mã của mình trực
-                    tiếp trên nền tảng Wokwi và xem kết quả mô phỏng.
+                    2. Trình biên dịch và kiểm tra mã:
+                    <br />- Wokwi tích hợp một trình biên dịch trực tuyến cho
+                    phép bạn viết mã cho vi điều khiển và linh kiện điện tử. Bạn
+                    có thể kiểm tra mã của mình trực tiếp trên nền tảng Wokwi và
+                    xem kết quả mô phỏng.
                   </li>
 
                   <li>
-                    Giao diện người dùng trực quan: Wokwi có giao diện người
-                    dùng thân thiện và dễ sử dụng. Bạn có thể thao tác kéo và
-                    thả linh kiện, kết nối chúng và điều chỉnh các thông số của
-                    mạch điện tử một cách trực quan.
+                    3. Giao diện người dùng trực quan:
+                    <br />- Wokwi có giao diện người dùng thân thiện và dễ sử
+                    dụng. Bạn có thể thao tác kéo và thả linh kiện, kết nối
+                    chúng và điều chỉnh các thông số của mạch điện tử một cách
+                    trực quan.
                   </li>
 
                   <li>
-                    Chia sẻ dự án và làm việc nhóm: Wokwi cho phép bạn chia sẻ
-                    dự án của mình với người khác. Bạn có thể mời thành viên
-                    khác vào dự án của mình và làm việc cùng nhau trên cùng một
-                    mạch điện tử.
+                    4. Chia sẻ dự án và làm việc nhóm:
+                    <br />- Wokwi cho phép bạn chia sẻ dự án của mình với người
+                    khác. Bạn có thể mời thành viên khác vào dự án của mình và
+                    làm việc cùng nhau trên cùng một mạch điện tử.
                   </li>
 
                   <li>
-                    Giao tiếp với phần cứng thực: Wokwi hỗ trợ giao tiếp với
-                    phần cứng thực qua các giao diện như UART, I2C và SPI. Bạn
-                    có thể kết nối mạch điện tử trực tiếp với vi điều khiển
-                    Arduino hoặc các thiết bị khác để thử nghiệm và kiểm tra ứng
-                    dụng của mình.
+                    5. Giao tiếp với phần cứng thực:
+                    <br />- Wokwi hỗ trợ giao tiếp với phần cứng thực qua các
+                    giao diện như UART, I2C và SPI. Bạn có thể kết nối mạch điện
+                    tử trực tiếp với vi điều khiển Arduino hoặc các thiết bị
+                    khác để thử nghiệm và kiểm tra ứng dụng của mình.
                   </li>
 
                   <li>
-                    Thư viện linh kiện phong phú: Wokwi cung cấp một thư viện
-                    linh kiện phong phú, cho phép bạn sử dụng các linh kiện phổ
-                    biến như vi điều khiển, cảm biến, màn hình và nhiều hơn nữa.
+                    6. Thư viện linh kiện phong phú:
+                    <br />- Wokwi cung cấp một thư viện linh kiện phong phú, cho
+                    phép bạn sử dụng các linh kiện phổ biến như vi điều khiển,
+                    cảm biến, màn hình và nhiều hơn nữa.
                   </li>
                 </ul>
-                <div>
-                  Tất cả những chức năng trên đều giúp bạn thực hiện thử nghiệm,
-                  kiểm tra và phát triển ứng dụng điện tử một cách thuận tiện và
-                  hiệu quả trên nền tảng Wokwi.
+                <div className="h3">
+                  - Tất cả những chức năng trên đều giúp bạn thực hiện thử
+                  nghiệm, kiểm tra và phát triển ứng dụng điện tử một cách thuận
+                  tiện và hiệu quả trên nền tảng Wokwi.
                 </div>
               </div>
             ),
@@ -151,8 +157,8 @@ const blogs = [
           {
             title: "# Lập trình giao tiếp thiết bị?",
             desc: (
-              <div>
-                Lập trình giao tiếp thiết bị - Lập trình nhúng (Embedded
+              <div className="h3">
+                - Lập trình giao tiếp thiết bị - Lập trình nhúng (Embedded
                 Programming, Embedded System) là một hệ thống nhỏ, độc lập, có
                 khả năng xử lí thông tin tốt trong các hệ thống lớn và phức tạp.
                 Hệ thống lập trình nhúng là một tổ hợp gồm phần cứng với phần
@@ -167,22 +173,27 @@ const blogs = [
             desc: (
               <div>
                 <div>
-                  Công cụ phần mềm:
-                  <div>Ngôn ngữ: C/C++, Python, Java ...</div>
-                  <div>IDE: Arduino IDE, VS Code ...</div>
+                  <div className="h2">## Công cụ phần mềm:</div>
+                  <div className="h3">- Ngôn ngữ: C/C++, Python, Java ...</div>
+                  <div className="h3">- IDE: Arduino IDE, VS Code ...</div>
                 </div>
                 <div>
-                  Công cụ phần cứng: Arduino, ESP8266/32, Sensor, Raspberry Pi,
-                  ...
+                  <div className="h2">## Công cụ phần cứng:</div>
+                  <div className="h3">
+                    - Arduino, ESP8266/32, Sensor, Raspberry Pi, ...
+                  </div>
                 </div>
-                <div>Công cụ hỗ trợ học tập: Phần mềm giả lập - Wokwi</div>
+                <div>
+                  <div className="h2">## Công cụ hỗ trợ học tập:</div>
+                  <div className="h3">- Phần mềm giả lập - Wokwi</div>
+                </div>
               </div>
             ),
           },
           {
             title: "# Quy trình dự án",
             desc: (
-              <div>
+              <div className="h3">
                 <ul>
                   <li>Bước 1: Chuẩn bị công cụ và dụng cụ theo yêu cầu</li>
                   <li>Bước 2: Vẽ sơ đồ kết nối</li>
@@ -198,12 +209,12 @@ const blogs = [
             desc: (
               <div>
                 <div>
-                  <div>
-                    Câu 1: Hãy liệt kê điều gì ảnh hưởng đến sự sáng tắt của hệ
-                    thống?
+                  <div className="h2">
+                    ## Câu 1: Hãy liệt kê điều gì ảnh hưởng đến sự sáng tắt của
+                    hệ thống?
                   </div>
-                  <div>
-                    Quá trình sáng tắt của hệ thống trong lập trình giao tiếp
+                  <div className="h3">
+                    - Quá trình sáng tắt của hệ thống trong lập trình giao tiếp
                     thiết bị có thể bị ảnh hưởng bởi nhiều yếu tố. Các yếu tố
                     ảnh hưởng bao gồm lỗi phần cứng, lỗi phần mềm, xung đột tín
                     hiệu, sai cấu hình, nguồn điện không ổn định, lỗi kết nối và
@@ -214,60 +225,79 @@ const blogs = [
                   </div>
                 </div>
                 <div>
-                  <div>
-                    Câu 2: Nếu bạn là lập trình viên hãy đánh giá ảnh hưởng của
-                    nó?
+                  <div className="h2">
+                    ## Câu 2: Nếu bạn là lập trình viên hãy đánh giá ảnh hưởng
+                    của nó?
                   </div>
-                  <ul>
+                  <ul className="h3">
                     <li>
-                      Lỗi phần cứng: Lỗi phần cứng có thể gây ra sự cố nghiêm
-                      trọng trong quá trình sáng tắt hệ thống. Điều này có thể
-                      làm gián đoạn hoạt động chính xác của thiết bị và gây mất
-                      kết nối hoặc lỗi dữ liệu. Đánh giá: ảnh hưởng lớn.
+                      <div className="text-lg font-semibold">
+                        1. Lỗi phần cứng:
+                      </div>
+                      - Lỗi phần cứng có thể gây ra sự cố nghiêm trọng trong quá
+                      trình sáng tắt hệ thống. Điều này có thể làm gián đoạn
+                      hoạt động chính xác của thiết bị và gây mất kết nối hoặc
+                      lỗi dữ liệu. Đánh giá: ảnh hưởng lớn.
                     </li>
 
                     <li>
-                      Lỗi phần mềm: Lỗi phần mềm có thể gây ra các vấn đề như
-                      không xử lý đúng tín hiệu sáng tắt, thời gian chờ không
-                      chính xác hoặc lỗi trong mã lập trình. Điều này có thể dẫn
-                      đến sự cố trong quá trình sáng tắt hệ thống. Đánh giá: ảnh
-                      hưởng trung bình đến lớn.
+                      <div className="text-lg font-semibold">
+                        2. Lỗi phần mềm:
+                      </div>
+                      - Lỗi phần mềm có thể gây ra các vấn đề như không xử lý
+                      đúng tín hiệu sáng tắt, thời gian chờ không chính xác hoặc
+                      lỗi trong mã lập trình. Điều này có thể dẫn đến sự cố
+                      trong quá trình sáng tắt hệ thống. Đánh giá: ảnh hưởng
+                      trung bình đến lớn.
                     </li>
 
                     <li>
-                      Xung đột tín hiệu: Xung đột tín hiệu có thể xảy ra khi có
-                      nhiều thiết bị cùng gửi hoặc nhận tín hiệu cùng một lúc.
-                      Điều này có thể làm mất tín hiệu hoặc gây ra sự cố trong
-                      quá trình sáng tắt hệ thống. Đánh giá: ảnh hưởng trung
-                      bình.
-                    </li>
-
-                    <li>
-                      Sai cấu hình: Sai cấu hình giữa các thiết bị có thể gây ra
-                      sự cố trong quá trình sáng tắt hệ thống. Điều này bao gồm
-                      thiết lập không chính xác của tham số và các thông số
-                      không tương thích giữa các thiết bị. Đánh giá: ảnh hưởng
-                      trung bình.
-                    </li>
-
-                    <li>
-                      Nguồn điện không ổn định: Nguồn điện không ổn định có thể
-                      gây ra sự cố trong quá trình sáng tắt hệ thống. Điều này
-                      có thể làm gián đoạn hoạt động của các linh kiện và gây ra
-                      lỗi hoạt động. Đánh giá: ảnh hưởng trung bình đến lớn.
-                    </li>
-
-                    <li>
-                      Lỗi kết nối: Kết nối không đầy đủ, lỏng hoặc không đúng
-                      cách có thể gây ra sự cố trong quá trình sáng tắt hệ
-                      thống. Điều này có thể làm mất kết nối hoặc gây ra lỗi dữ
-                      liệu. Đánh giá: ảnh hưởng trung bình.
-                    </li>
-
-                    <li>
-                      Sự cố mạng: Sự cố mạng như mất kết nối hoặc truyền dữ liệu
-                      không đúng cũng có thể gây ra sự cố trong quá trình sáng
+                      <div className="text-lg font-semibold">
+                        3. Xung đột tín hiệu:
+                      </div>
+                      - Xung đột tín hiệu có thể xảy ra khi có nhiều thiết bị
+                      cùng gửi hoặc nhận tín hiệu cùng một lúc. Điều này có thể
+                      làm mất tín hiệu hoặc gây ra sự cố trong quá trình sáng
                       tắt hệ thống. Đánh giá: ảnh hưởng trung bình.
+                    </li>
+
+                    <li>
+                      <div className="text-lg font-semibold">
+                        4. Sai cấu hình:
+                      </div>
+                      - Sai cấu hình giữa các thiết bị có thể gây ra sự cố trong
+                      quá trình sáng tắt hệ thống. Điều này bao gồm thiết lập
+                      không chính xác của tham số và các thông số không tương
+                      thích giữa các thiết bị. Đánh giá: ảnh hưởng trung bình.
+                    </li>
+
+                    <li>
+                      <div className="text-lg font-semibold">
+                        5. Nguồn điện không ổn định:
+                      </div>
+                      - Nguồn điện không ổn định có thể gây ra sự cố trong quá
+                      trình sáng tắt hệ thống. Điều này có thể làm gián đoạn
+                      hoạt động của các linh kiện và gây ra lỗi hoạt động. Đánh
+                      giá: ảnh hưởng trung bình đến lớn.
+                    </li>
+
+                    <li>
+                      <div className="text-lg font-semibold">
+                        6. Lỗi kết nối:
+                      </div>
+                      - Kết nối không đầy đủ, lỏng hoặc không đúng cách có thể
+                      gây ra sự cố trong quá trình sáng tắt hệ thống. Điều này
+                      có thể làm mất kết nối hoặc gây ra lỗi dữ liệu. Đánh giá:
+                      ảnh hưởng trung bình.
+                    </li>
+
+                    <li>
+                      <div className="text-lg font-semibold">
+                        7. Sự cố mạng:
+                      </div>
+                      - Sự cố mạng như mất kết nối hoặc truyền dữ liệu không
+                      đúng cũng có thể gây ra sự cố trong quá trình sáng tắt hệ
+                      thống. Đánh giá: ảnh hưởng trung bình.
                     </li>
                   </ul>
                 </div>
@@ -277,8 +307,11 @@ const blogs = [
           {
             title: "# Bài tập",
             desc: (
-              <a href="" className="underline">
-                Link Bài tập 1
+              <a
+                href="https://wokwi.com/projects/391955505801198593"
+                className="text-2xl underline"
+              >
+                Link bài tập 1 : đèn led không hàm delay()
               </a>
             ),
           },
@@ -522,9 +555,24 @@ const blogs = [
           {
             title: "# Bài tập",
             desc: (
-              <div>
-                <div>Bài 1</div>
-                <div>Bài 2</div>
+              <div className="flex flex-col gap-4">
+                <a
+                  href="https://wokwi.com/projects/391957717923373057"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-2xl underline"
+                >
+                  Link bài 1 : Bật/ tắt đèn LED bằng kỹ thuật debounce
+                </a>
+                <a
+                  href="https://wokwi.com/projects/391957809372839937"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-2xl underline"
+                >
+                  Link bài 2 : Điều khiển độ sáng đèn LED bằng biến trở với
+                  ESP32
+                </a>
               </div>
             ),
           },
@@ -538,7 +586,207 @@ const blogs = [
         main_content: [
           {
             title: "# Khái quát về Serial",
-            desc: <div>d</div>,
+            desc: (
+              <div>
+                <div>
+                  <div className="h2">## Định nghĩa giao tiếp UART</div>
+                  <div className="h3">
+                    UART (Universal Asynchronous Receiver Transmitter) bộ truyền
+                    nhận dữ liệu nối tiếp bất đồng bộ. Trong giao tiếp UART, 2
+                    UART giap tiếp trực tiếp với nhau.UART truyền chuyển đổi dữ
+                    liệu song song từ một thiết bị điều khiển như CPU thành dạng
+                    nối tiếp, truyền nó nối tiếp đến UART nhận, sau đó chuyển
+                    đổi dữ liệu nối tiếp trở lại thành dữ liệu song song cho
+                    thiết bị nhận.
+                  </div>
+                </div>
+                <div>
+                  <div className="h2">## Giao tiếp UART</div>
+                  <div className="h3">
+                    1. Hai đường dây mà mỗi thiết bị UART sử dụng là :
+                    <div className="h4">+ Transmitter(Tx)</div>
+                    <div className="h4">+ Receiver(Rx)</div>
+                    2. Dây tín hiệu được nối chéo với nhau:
+                    <div className="h4">+ Tx - Rx</div>
+                    <div className="h4">+ Rx - Tx</div>
+                    <div className="h4">+ GND - GND</div>
+                    3. UART truyền dữ liệu theo 1 trong 3 chế độ:
+                    <div className="h4">
+                      + Full duplex: Giao tiếp đồng thời đến và đi từ mỗi master
+                      và slave
+                    </div>
+                    <div className="h4">
+                      + Half duplex: Dữ liệu đi theo một hướng tại một thời điểm
+                    </div>
+                    <div className="h4">+ Simplex: Chỉ giao tiếp một chiều</div>
+                    4. Các lưu ý trong chuẩn truyền thông UART
+                    <div className="mx-auto my-4 flex justify-center">
+                      <table>
+                        <tr>
+                          <td>Số lượng sử dụng</td>
+                          <td>2</td>
+                        </tr>
+                        <tr>
+                          <td>Tốc độ truyền (Baudrate)</td>
+                          <td>
+                            110 bps đến 230400 bps Có thể thiết lập trong code
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Phương pháp truyền</td>
+                          <td>Bất đồng bộ</td>
+                        </tr>
+                        <tr>
+                          <td>Kiểu truyền dữ liệu</td>
+                          <td>Nối tiếp</td>
+                        </tr>
+                        <tr>
+                          <td>Số lượng MASTERS tối đa</td>
+                          <td>1</td>
+                        </tr>
+                        <tr>
+                          <td>Số lượng SLAVES tối đa</td>
+                          <td>1</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            Hai thiết bị giao tiếp UART với nhau cần nối chung
+                            GND
+                          </td>
+                        </tr>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ),
+          },
+          {
+            title: "# Lập trình UART với ESP32",
+            desc: (
+              <div>
+                <div>
+                  <div className="h2">## Các chân UART trên ESP32</div>
+                  <div className="flex w-full items-center justify-center">
+                    <table className="w-1/2 text-center">
+                      <tr>
+                        <th>UART</th>
+                        <th>RX IO</th>
+                        <th>TX IO</th>
+                        <th>CTS</th>
+                        <th>RTS</th>
+                      </tr>
+                      <tr>
+                        <td>UART0</td>
+                        <td>GPIO3</td>
+                        <td>GPIO1</td>
+                        <td>N/A</td>
+                        <td>N/A</td>
+                      </tr>
+                      <tr>
+                        <td>UART1</td>
+                        <td>GPIO9</td>
+                        <td>GPIO10</td>
+                        <td>GPIO6</td>
+                        <td>GPIO11</td>
+                      </tr>
+                      <tr>
+                        <td>UART2</td>
+                        <td>GPIO16</td>
+                        <td>GPIO17</td>
+                        <td>GPIO8</td>
+                        <td>GPIO7</td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+                <div>
+                  <div className="h2">## Thư viện</div>
+                  <div className="h3">
+                    - Sử dụng thư viện Hardware Serial có sẵn trên ESP32 Arduino
+                    có thể sử dụng ngay trên Arduino IDE bằng cách gọi:
+                  </div>
+                  <div className="h4">
+                    + Serial.begin() ứng với UART0 dùng để debug và flash, mặc
+                    định Baudrate = 115200 bps
+                  </div>
+                  <div className="h4">+ Serial1.begin() ứng với UART1</div>
+                  <div className="h4">+ Serial2.begin() ứng với UART2</div>
+                  <div className="h2">
+                    ## Một số hàm và thủ tục của thư viện Serial(ESP32 + Arduino
+                    IDE)
+                  </div>
+                  <ul className="h3">
+                    <li>Serial.available()</li>
+                    <li>begin()</li>
+                    <li>end()</li>
+                    <li>find()</li>
+                    <li>peek()</li>
+                    <li>print()</li>
+                    <li>write()</li>
+                  </ul>
+                  <div className="h2">## Serial Debug</div>
+                  <div className="h3">1. Serial monitor</div>
+                  <div className="h4">
+                    - Là công cụ Arduino IDE, giúp bo mạch và máy tính có thể
+                    gửi và nhận dữ liệu với nhau qua giap tiếp USB
+                  </div>
+                  <div className="h3">2. Serial monitor</div>
+                  <div className="h4">
+                    - Là công cụ để theo dõi các dữ liệu khác nhau gửi từ bo
+                    mạch.Được sử dụng để in dữ liệu trực quan đồ hoạ, giúp hiểu
+                    và so sánh dữ liệu tốt hơn.
+                  </div>
+                </div>
+              </div>
+            ),
+          },
+          {
+            title: "# Câu hỏi",
+            desc: (
+              <div>
+                <div className="h2">
+                  ## So sánh serial monitor với serial plotter?
+                </div>
+                <div className="h3">
+                  - Serial Monitor là công cụ để gửi và nhận dữ liệu qua giao
+                  tiếp UART và hiển thị dưới dạng văn bản, thường được sử dụng
+                  để gỡ lỗi và hiển thị thông tin debug.
+                </div>
+                <div className="h3">
+                  - Serial Plotter là công cụ để hiển thị dữ liệu số từ Arduino
+                  dưới dạng biểu đồ đường theo thời gian, hữu ích để theo dõi sự
+                  thay đổi của các giá trị số.
+                </div>
+                <div className="h2">
+                  ## So sánh các Serial mode và baudrate?
+                </div>
+                <div className="h3">
+                  - Serial Mode là chế độ hoạt động của giao tiếp UART, quy định
+                  cách dữ liệu được truyền qua UART.
+                </div>
+                <div className="h3">
+                  - Baud Rate là tốc độ truyền dữ liệu qua UART, được đo bằng số
+                  bit truyền trong một giây (bps).
+                </div>
+              </div>
+            ),
+          },
+          {
+            title: "# Bài tập",
+            desc: (
+              <div>
+                <a
+                  href="https://wokwi.com/projects/391958226763780097"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-2xl underline"
+                >
+                  Link bài tập 1: Lập trình xuất thông tin lên màn hình Serial
+                  monitor thông tin cá nhân (MSSV, Họ tên , lớp)
+                </a>
+              </div>
+            ),
           },
         ],
       },

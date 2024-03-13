@@ -2,9 +2,10 @@ import react_icon from "../assets/icons/react_icon.svg";
 import html_icon from "../assets/icons/html_icon.svg";
 import css_icon from "../assets/icons/css_icon.svg";
 import js_icon from "../assets/icons/js_icon.svg";
-import json_icon from "../assets/icons/json_icon.svg";
+// import json_icon from "../assets/icons/json_icon.svg";
 import markdown_icon from "../assets/icons/markdown_icon.svg";
 import { Link, useLocation } from "react-router-dom";
+import FolderIcon from "./icons/FolderIcon";
 
 const TabsItems = [
   {
@@ -28,9 +29,9 @@ const TabsItems = [
     icon: `${js_icon}`,
   },
   {
-    name: "blogs.json",
+    name: "blogs.folder",
     path: "/blogs",
-    icon: `${json_icon}`,
+    icon: <FolderIcon props={"scale-[0.85]"} />,
   },
   {
     name: "github.md",
@@ -54,7 +55,11 @@ function Tabs() {
                 : "border-2 bg-tabBg"
             }   min-w-max gap-x-1  border-tabBorder  px-3 text-textColor   md:py-1`}
           >
-            <img src={tab.icon} height={20} width={20} alt="react-icon" />
+            {tab.name === "blogs.folder" ? (
+              tab.icon
+            ) : (
+              <img src={tab.icon} height={20} width={20} alt="react-icon" />
+            )}
             <p className=" text-lg font-medium">{tab.name}</p>
           </Link>
         );

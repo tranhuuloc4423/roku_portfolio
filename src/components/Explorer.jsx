@@ -44,17 +44,17 @@ const explorerItems = [
             icon: `${json_icon}`,
           },
           {
-            name: "Bài 1: Giới thiệu Môn",
+            name: "1.Giới thiệu Môn",
             path: "/blogs/1/1",
             icon: `${json_icon}`,
           },
           {
-            name: "Bài 2: Lập trình GPIO",
+            name: "2.Lập trình GPIO",
             path: "/blogs/1/2",
             icon: `${json_icon}`,
           },
           {
-            name: "Bài 3: Giao thức giao tiếp Serial - UART",
+            name: "3.Giao thức giao tiếp Serial - UART",
             path: "/blogs/1/3",
             icon: `${json_icon}`,
           },
@@ -71,7 +71,7 @@ const explorerItems = [
 function Explorer() {
   const [show, setShow] = useState(true);
   return (
-    <div className="flex flex-col items-start  border-l-[1px] border-r-[1px] border-l-gray-700 border-r-gray-700 bg-explorerBg text-white max-sm:hidden">
+    <div className="flex max-w-[250px] flex-col  items-start border-l-[1px] border-r-[1px] border-l-gray-700 border-r-gray-700 bg-explorerBg text-white max-sm:hidden">
       <h1 className="mt-4 pl-2 text-2xl font-medium uppercase">Explorer</h1>
       <div className="flex min-w-[15vw]  flex-col">
         <div

@@ -35,7 +35,7 @@ function About() {
             </h1>
             <h2 className="text-xl max-sm:hidden">
               Hi, Im Roku. A passionate Front-end React Developer <br /> based
-              in Dong Nai,Viet Nam. 📍
+              in Dong Nai,Viet Nam. 👨🏾‍💻
             </h2>
           </div>
         </div>

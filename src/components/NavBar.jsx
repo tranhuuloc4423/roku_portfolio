@@ -4,9 +4,7 @@ const list = ["File", "Edit", "View", "Go", "Run", "Terminal", "Help"];
 function NavBar({ theme }) {
   return (
     <header className={`  bg-titlebarBg text-textColor `}>
-      <nav
-        className={`mx-3 flex h-8 items-center justify-between  text-center`}
-      >
+      <nav className={`mx-3 flex h-8 items-center justify-between text-center`}>
         <div className="mr-auto flex  items-center md:gap-x-3">
           <img src={vscode} height={20} width={20} alt="" />
           <ul className="flex gap-x-3 max-md:hidden">

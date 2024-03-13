@@ -3,6 +3,21 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  .h1 {
+    @apply mb-2 mt-4 text-3xl font-bold;
+  }
+  .h2 {
+    @apply mb-2 mt-4 text-2xl font-semibold;
+  }
+  .h3 {
+    @apply mb-2 mt-4 pl-4 text-xl font-medium;
+  }
+  .h4 {
+    @apply mb-2 mt-4 pl-6 text-lg;
+  }
+}
+
 html,
 body {
   height: 100%;
@@ -22,24 +37,26 @@ p {
   margin: 0;
 }
 
-/* width */
+table,
+tr,
+td,
+th {
+  border: 1px solid;
+}
+
 ::-webkit-scrollbar {
-  width: 10px;
-  /* height: 15px; */
+  width: 8px;
 }
 
-/* Track */
 ::-webkit-scrollbar-track {
-  background: black;
+  background: transparent;
 }
 
-/* Handle */
 ::-webkit-scrollbar-thumb {
   background: #888;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
@@ -55,6 +72,7 @@ p {
     typing 3.5s steps(23),
     blink-caret 0.75s step-end infinite;
 }
+
 @keyframes typing {
   from {
     width: 0;

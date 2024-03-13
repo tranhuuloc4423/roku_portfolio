@@ -1,7 +1,7 @@
 import RepoCard from "./RepoCard";
 import ActivityCalendar from "react-github-calendar";
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import { getUser } from "../../services/apiGithub";
+// import { getUser } from "../../services/apiGithub";
 import { useLoaderData } from "react-router";
 
 function Github() {
@@ -34,7 +34,7 @@ function Github() {
           </div>
           <div className="pl-2">
             <h2 className=" text-lg  font-medium text-textColor md:text-2xl">
-              {user ? user.public_repos : 20} Repos
+              {user ? user?.public_repos : 20} Repos
             </h2>
           </div>
           <div className="hidden pl-2 text-textColor   md:block ">
@@ -57,9 +57,9 @@ function Github() {
               );
             })}
         </div>
-        <div className="h-full w-full  text-textColor">
+        <div className="flex h-full w-full justify-center text-textColor">
           <ActivityCalendar
-            username="manavss"
+            username="tranhuuloc4423"
             fontSize={17}
             theme={theme}
             hideColorLegend
@@ -72,8 +72,8 @@ function Github() {
 }
 
 export async function loader() {
-  const github = getUser();
-  return github;
+  // const github = getUser();
+  // return github;
 }
 
 export default Github;
