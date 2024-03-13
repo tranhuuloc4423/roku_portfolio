@@ -1,42 +1,40 @@
-import dictionary from "../../assets/images/dictionary.jpg";
-import rest from "../../assets/images/rest.jpg";
-import vscode from "../../assets/images/vscode.jpg";
-import pizza from "../../assets/images/pizzapic.jpg";
+import zingmp3 from "../../assets/images/zingmp3.jpg";
+import wordle from "../../assets/images/wordle_clone.jpg";
+import restaurant from "../../assets/images/restaurant_management_system.png";
+import movie from "../../assets/images/movie.png";
 export const project = [
   {
-    title: "Vs-Code Portfolio",
-    description:
-      "A Vscode themed developer portfolio website built with React.js and TailwindCSS.",
-    image: vscode,
-    tags: ["react", "tailwind", "axios"],
-    sourceCode: "https://github.com/manavss/vscode-portfolio-main",
-    demo: "https://vscode-portfolio-main.vercel.app/",
+    title: "zingmp3 clone",
+    description: "A zingmp3 website built with React.js and Redux",
+    image: zingmp3,
+    tags: ["react", "redux", "tailwindcss", "axios"],
+    sourceCode: "https://github.com/tranhuuloc4423/zingmp3_clone",
+    demo: "https://zingmp3-clone-delta.vercel.app",
   },
   {
-    title: "Fast React Pizza",
-    description:
-      " This pizza store prioritize UX and clean UI, making it easy for customers to order pizzas.",
-    image: pizza,
-    tags: ["react", "tailwind", "redux"],
-    sourceCode: "https://github.com/manavss/fast-react-pizza",
-    demo: "https://fast-reactredux-pizza.netlify.app/",
+    title: "Wordle clone",
+    description: "A fun puzzle game built with a simple UI that prioritizes UX",
+    image: wordle,
+    tags: ["react", "redux"],
+    sourceCode: "https://github.com/tranhuuloc4423/wordle_project",
+    demo: "https://wordle-project-clone.vercel.app/",
   },
   {
-    title: "Rest Countries",
+    title: "Restaurant Manage App",
     description:
-      "A webapp that allows you to search for countries an thier details .",
-    image: rest,
-    tags: ["react", "tailwind", "context-api"],
-    sourceCode: "https://github.com/manavss/restCountries",
-    demo: "https://restcountrydetails.netlify.app/",
+      "Besides front-end, I also build some winform management projects like this one, Restaurant Management system.",
+    image: restaurant,
+    tags: ["C#", "sql", ".NET"],
+    sourceCode: "https://github.com/tranhuuloc4423/restaurant_manage",
+    demo: "#",
   },
   {
-    title: "Dictionary App",
+    title: "HuLoMovie",
     description:
-      "A Dictionary app that lets you search words in and bookmark them for future reference.",
-    image: dictionary,
-    tags: ["react", "axios", "material-ui"],
-    sourceCode: "https://github.com/manavss/dictionary",
-    demo: "https://mydictionarysearch.netlify.app/",
+      "A Movie review web, allowing you to view detailed information of the movie",
+    image: movie,
+    tags: ["js", "jquery", "themoviedb api"],
+    sourceCode: "https://github.com/tranhuuloc4423/HuLoMovie",
+    demo: "https://tranhuuloc4423.github.io/HuLoMovie/index.html",
   },
 ];
