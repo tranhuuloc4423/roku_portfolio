@@ -17,7 +17,7 @@ function ProjectCard({ img, title, desc, tags, srcCode, demo }) {
         <div className="space-x-2">
           <a
             href={srcCode}
-            className="rounded-md px-1 py-1 text-lg font-semibold underline  decoration-accentColor hover:bg-accentColor"
+            className="rounded-md px-1 py-1 text-lg font-semibold  decoration-accentColor hover:bg-accentColor"
             target="_blank"
             rel="noreferrer"
           >
@@ -25,7 +25,7 @@ function ProjectCard({ img, title, desc, tags, srcCode, demo }) {
           </a>
           <a
             href={demo}
-            className="rounded-md px-1 py-1 text-lg font-semibold underline decoration-accentColor hover:bg-accentColor"
+            className="rounded-md px-1 py-1 text-lg font-semibold decoration-accentColor hover:bg-accentColor"
             target="_blank"
             rel="noreferrer"
           >

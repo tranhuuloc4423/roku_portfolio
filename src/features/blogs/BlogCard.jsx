@@ -5,7 +5,7 @@ function BlogCard({ data }) {
   return (
     <Link
       to={`${data.link}`}
-      className="flex max-w-xs cursor-pointer flex-col rounded-xl bg-articleBg  transition-all hover:scale-95 hover:shadow-lg"
+      className="flex max-w-xs cursor-pointer flex-col rounded-xl bg-articleBg  transition-all hover:scale-[0.98] hover:shadow-lg"
     >
       <img
         src={data?.thumbnail}

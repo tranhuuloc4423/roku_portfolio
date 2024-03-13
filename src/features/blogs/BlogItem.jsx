@@ -16,7 +16,7 @@ const BlogItem = () => {
           <Link
             to={`${blogItem.link}`}
             key={index}
-            className="w-1/5 cursor-pointer overflow-hidden rounded-md shadow-md transition-all hover:scale-95"
+            className="w-1/5 cursor-pointer overflow-hidden rounded-md shadow-md transition-all hover:scale-[0.98]"
           >
             <img src={blogItem.thumbnail} alt="thumbnail" className="w-full" />
           </Link>

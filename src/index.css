@@ -5,16 +5,16 @@
 
 @layer base {
   .h1 {
-    @apply mb-2 mt-4 text-3xl font-bold;
+    @apply mb-2 mt-4 text-3xl font-semibold;
   }
   .h2 {
-    @apply mb-2 mt-4 text-2xl font-semibold;
+    @apply mb-2 mt-4 text-2xl font-medium;
   }
   .h3 {
-    @apply mb-2 mt-4 pl-4 text-xl font-medium;
+    @apply mb-2 mt-4 pl-4 text-xl font-normal;
   }
   .h4 {
-    @apply mb-2 mt-4 pl-6 text-lg;
+    @apply mb-2 mt-4 pl-6 text-lg font-light;
   }
 }
 
