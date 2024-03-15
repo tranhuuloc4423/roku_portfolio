@@ -11,12 +11,12 @@ const BlogItem = () => {
       <Helmet>
         <title>Roku | Blogs</title>
       </Helmet>
-      <div className="flex flex-wrap gap-6 p-8">
+      <div className="flex gap-6 p-8 sm:flex-col md:flex-row lg:flex-row">
         {blogItems.map((blogItem, index) => (
           <Link
             to={`${blogItem.link}`}
             key={index}
-            className="w-1/5 cursor-pointer overflow-hidden rounded-md shadow-md transition-all hover:scale-[0.98]"
+            className="cursor-pointer overflow-hidden rounded-md shadow-md transition-all hover:scale-[0.98] sm:w-full md:w-1/3 lg:w-1/5"
           >
             <img src={blogItem.thumbnail} alt="thumbnail" className="w-full" />
           </Link>

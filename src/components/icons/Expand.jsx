@@ -1,6 +1,10 @@
-const Expand = ({ props }) => {
+import { MdExpandMore } from "react-icons/md";
+
+const Expand = ({ props, size = 24 }) => {
   return (
-    <span className={`material-symbols-outlined ${props}`}>expand_more</span>
+    <span className={`${props}`}>
+      <MdExpandMore size={size} />
+    </span>
   );
 };
 
