@@ -2,6 +2,15 @@ import img_0 from "../../assets/images/LTGTTB/introduce_0.png";
 import img_1 from "../../assets/images/LTGTTB/bai1.png";
 import img_2 from "../../assets/images/LTGTTB/bai2.png";
 import img_3 from "../../assets/images/LTGTTB/bai3.png";
+import img_4 from "../../assets/images/LTGTTB/bai4.png";
+import img_5 from "../../assets/images/LTGTTB/bai5.png";
+import img_6 from "../../assets/images/LTGTTB/bai6.png";
+import img_7 from "../../assets/images/LTGTTB/bai7.png";
+import img_8 from "../../assets/images/LTGTTB/bai8.png";
+import img_9 from "../../assets/images/LTGTTB/bai9.png";
+import img_10 from "../../assets/images/LTGTTB/bai10.png";
+import img_baitap_off from "../../assets/images/LTGTTB/baitap_10_3_off.png";
+import img_baitap_on from "../../assets/images/LTGTTB/baitap_10_3_on.png";
 
 const blogs = [
   {
@@ -794,357 +803,940 @@ const blogs = [
         id: 4,
         title: "Giao thức giao tiếp Onewire",
         link: "/blogs/1/4",
-        thumbnail: img_0,
+        thumbnail: img_4,
         main_content: [
           {
-            title: "Khái quát giao tiếp Onewire",
-            desc: 
-            (<div>
+            title: "# Khái quát giao tiếp Onewire",
+            desc: (
               <div>
-                <div className="h2">Khát quát về giao tiếp Onewire</div>
-                <div className="h3">Onewire là hệ thống bus giao tiếp được thiết kế bởi Dallas Semiconductor Corp. Giống như tên gọi , hệ thống bus này chỉ sử dụng 1 dây để truyền nhận dữ liệu.One wire có hai chế độ làm việc là standard và onedrive. Khi làm việc ở chế độ standard thì tốc độ truyền dữ liệu là 15.4kbps, với chế độ overdrive là 125kbps.</div>
-                <div className="h3">Các đặc điểm:</div>
-                <div className="h4">+ Sử dụng một dây</div>
-                <div className="h4">+ Khoảng cách xa</div>
-                <div className="h4">+ Tốc độ không cao</div>
-                <div className="h4">+ 1 Master nhiều Slave</div>
-                <div className="h3">Sơ đồ kết nối: </div>
-                <div className="h4">
-                  <img src="https://www.thegioiic.com/upload/large/44585.jpg"/>
-                </div>
-                <div className="h3">Ứng dụng</div>
-                <div className="h4">Cảm biến nhiệt độ DS18B20 sử dụng giao tiếp One Wire</div>
-                <div className="h4">Cảm biến DHT11 sử dụng giao tiếp One Wire</div>
-                <div className="h4">
-                  <img src="https://www.thegioiic.com/upload/large/24509.jpg"/>
+                <div>
+                  <div className="h2">Khát quát về giao tiếp Onewire</div>
+                  <div className="h3">
+                    Onewire là hệ thống bus giao tiếp được thiết kế bởi Dallas
+                    Semiconductor Corp. Giống như tên gọi , hệ thống bus này chỉ
+                    sử dụng 1 dây để truyền nhận dữ liệu.One wire có hai chế độ
+                    làm việc là standard và onedrive. Khi làm việc ở chế độ
+                    standard thì tốc độ truyền dữ liệu là 15.4kbps, với chế độ
+                    overdrive là 125kbps.
+                  </div>
+                  <div className="h3">Các đặc điểm:</div>
+                  <div className="h4">+ Sử dụng một dây</div>
+                  <div className="h4">+ Khoảng cách xa</div>
+                  <div className="h4">+ Tốc độ không cao</div>
+                  <div className="h4">+ 1 Master nhiều Slave</div>
+                  <div className="h3">Sơ đồ kết nối: </div>
+                  <div className="h4">
+                    <img src="https://www.thegioiic.com/upload/large/44585.jpg" />
+                  </div>
+                  <div className="h3">Ứng dụng</div>
+                  <div className="h4">
+                    Cảm biến nhiệt độ DS18B20 sử dụng giao tiếp One Wire
+                  </div>
+                  <div className="h4">
+                    Cảm biến DHT11 sử dụng giao tiếp One Wire
+                  </div>
+                  <div className="h4">
+                    <img src="https://www.thegioiic.com/upload/large/24509.jpg" />
+                  </div>
                 </div>
               </div>
-
-              
-            </div>)
+            ),
           },
           {
-            title: "Lập trình với thiết bị hỗ trợ OneWire Protocal",
-            desc:
-            <div>
+            title: "# Lập trình với thiết bị hỗ trợ OneWire Protocal",
+            desc: (
+              <div>
                 <div className="h2">Cảm biến DS18B20 Chuẩn bị thiết bị</div>
                 <div className="h3">+ 1 Board ESP32 DEVKIT V1</div>
                 <div className="h3">+ 1 cảm biến DS18B20</div>
                 <div className="h3">+ 1 điện trở 4.7k ohm</div>
                 <div className="h2">Kết nối thiết bị</div>
                 <div className="h3">
-                  <img src="https://lh7-us.googleusercontent.com/1FlFlP3eIPgrQ8BSe4-Gmm5oE0l5lfgziRlLvnfn6Gja_WnxXZ8pgB9DyM3k7fhp3HKSl5hUHPuRAkO2iKpFvBSlFy43FLLut3HXPKMjYBMFVWgBg3MVxOxP0OUfndA7QzCptv1hjnj4WlGqJc8RsSqtEQ=s2048"/>
-                  <img src="https://lh7-us.googleusercontent.com/nuFKKdwea6u_bJ5JY19vCcoxRMs8bkavGLlPOObQekHGijwpzW8Z-Fj38ptHweveV-ac8mlwkHk2kKKEuhYVvO6420p_EDNiHx4Bv3Dt29A446IOJivzAvN2DC_8CcpYlNyevG5LtQ6vt3g4kkBu_ZhMXQ=s2048"/>
+                  <img src="https://lh7-us.googleusercontent.com/1FlFlP3eIPgrQ8BSe4-Gmm5oE0l5lfgziRlLvnfn6Gja_WnxXZ8pgB9DyM3k7fhp3HKSl5hUHPuRAkO2iKpFvBSlFy43FLLut3HXPKMjYBMFVWgBg3MVxOxP0OUfndA7QzCptv1hjnj4WlGqJc8RsSqtEQ=s2048" />
+                  <img src="https://lh7-us.googleusercontent.com/nuFKKdwea6u_bJ5JY19vCcoxRMs8bkavGLlPOObQekHGijwpzW8Z-Fj38ptHweveV-ac8mlwkHk2kKKEuhYVvO6420p_EDNiHx4Bv3Dt29A446IOJivzAvN2DC_8CcpYlNyevG5LtQ6vt3g4kkBu_ZhMXQ=s2048" />
                 </div>
                 <div className="h3">
-                  - Cài đặt thư viện OneWire, Dallas Temperature thông qua Lib manager trên Arduino IDE.Sử dụng thư viện OneWire, Dallas Temperature có thể sử dụng ngay trên Arduino IDE.
+                  - Cài đặt thư viện OneWire, Dallas Temperature thông qua Lib
+                  manager trên Arduino IDE.Sử dụng thư viện OneWire, Dallas
+                  Temperature có thể sử dụng ngay trên Arduino IDE.
                 </div>
 
-                <div className="h2">Cảm biến DHT (DHT11/DHT22) Chuẩn bị thiết bị</div>
+                <div className="h2">
+                  Cảm biến DHT (DHT11/DHT22) Chuẩn bị thiết bị
+                </div>
                 <div className="h3">
-                  <img src="https://lh7-us.googleusercontent.com/aw-1jlUS6zYoTmvyNVRw_FMXHqTozWoCxWOE5XF_cupM-UJhGEr5NiXk8N2afR0FgK8EHfKHEtN68TKaStPE_igZB09rxRMfqPQm6H4SN87y4tjG1w0Ekuv_MiYaGFWnePSH_yuw-p3QOSpYMJ1XLSihGA=s2048"/>
+                  <img src="https://lh7-us.googleusercontent.com/aw-1jlUS6zYoTmvyNVRw_FMXHqTozWoCxWOE5XF_cupM-UJhGEr5NiXk8N2afR0FgK8EHfKHEtN68TKaStPE_igZB09rxRMfqPQm6H4SN87y4tjG1w0Ekuv_MiYaGFWnePSH_yuw-p3QOSpYMJ1XLSihGA=s2048" />
                   <img src="https://lh7-us.googleusercontent.com/8nGPcLxkABNd8e5RWLaRqUdeZ7mYoS0RXNYoDb8gzHImvKNWsxxQD4pttPgDMlqWsfESx1rcdEIdf_0zzESOX5L8kZ1pSUj8Ux6MuTDNHdv5Aoo77lFEY_HH-iH0AcXnTdIWvHlu8ElK4YNGfDJh9qFV8A=s2048" />
                 </div>
                 <div className="h2">Kết nối thiết bị</div>
                 <div className="h3">
                   <img src="https://lh7-us.googleusercontent.com/yHCqkvTTHfC_YitHhrStlkLPUe3f2UMDfiQtJJfrzzwd2N5a7LV0Sidwf1I_uiff4M8XkR8Gc_4mloEFAl2uWeboJaSRhTkNNMdZauAWdU702OGAHYq1LEt9snL3pVMYka5nkil7ZJPGbx_J3djvKbDNGw=s2048" />
-                  <img src="https://lh7-us.googleusercontent.com/HXkU6QLu4wsqksMgXiy3LLW9jXDmVq_D2dPmO5zLj8vaSyfREPpeVcX8aJF_TZahVg4BinYQmddaenovfcZI4lL08Wz9paJ8a6gibm0fcrfSDDUFwE7dzpmkC6m0ivbJl1BI5ChGiBxKYfzTMPywudjvnQ=s2048"/>
+                  <img src="https://lh7-us.googleusercontent.com/HXkU6QLu4wsqksMgXiy3LLW9jXDmVq_D2dPmO5zLj8vaSyfREPpeVcX8aJF_TZahVg4BinYQmddaenovfcZI4lL08Wz9paJ8a6gibm0fcrfSDDUFwE7dzpmkC6m0ivbJl1BI5ChGiBxKYfzTMPywudjvnQ=s2048" />
                 </div>
                 <div className="h3">Cài đặt 2 thư viện sau:</div>
                 <div className="h3">
-                  - DHT library from Adafruit và Adafruit Unified Sensor library. Thông qua Library manager trên Arduino IDE.
-                  - Khai báo các thông tin sau để đọc được DHT11: #include "DHT.h"
-                  - Tạo 1 đối tượng DHT với GPIO kết nối với pin Signal DHT11 và loại DHT sử dụng: DHT dht([GPIO], [DHTTYPE])
-                  - Khởi tạo cảm biến ở setup() : dht.begin()
+                  - DHT library from Adafruit và Adafruit Unified Sensor
+                  library. Thông qua Library manager trên Arduino IDE. - Khai
+                  báo các thông tin sau để đọc được DHT11: #include DHT.h - Tạo
+                  1 đối tượng DHT với GPIO kết nối với pin Signal DHT11 và loại
+                  DHT sử dụng: DHT dht([GPIO], [DHTTYPE]) - Khởi tạo cảm biến ở
+                  setup() : dht.begin()
                 </div>
               </div>
+            ),
           },
           {
-            title: "Câu hỏi",
-            desc: 
-            <div>
-              <div className="h2">1. Những lưu ý khi sử dụng DHT11/DHT22?</div>
-              <div className="h3">- Tất cả các cảm biến đều cần được bảo quản và sử dụng một cách cẩn thận. Đối với DHT11/DHT22, hãy chú ý đến điều kiện môi trường, cung cấp điện áp và dòng điện đúng, đợi đủ thời gian cho đo độ ẩm và nhiệt độ, kết nối chính xác, và kiểm tra định kỳ.</div>
-              <div className="h2">1. Những lưu ý khi sử dụng DHT11/DHT22?</div>
-              <div className="h3">Ưu điểm:</div>
-              <div className="h4">- Sử dụng chỉ một dây dẫn.</div>
-              <div className="h4">- Tiết kiệm chân giao tiếp.</div>
-              <div className="h4">- Đa thiết bị trên cùng một dây.</div>
-              <div className="h4">- Ổn định và đáng tin cậy.</div>
-              <div className="h3">Nhược điểm:</div>
-              <div className="h4">- Tốc độ truyền dữ liệu chậm.</div>
-              <div className="h4">- Giới hạn về khoảng cách.</div>
-              <div className="h4">- Khả năng xung đột dữ liệu.</div>
-              <div className="h4">- Độ chính xác và độ tin cậy không cao trong môi trường nhiễu.</div>
-            </div>
+            title: "# Câu hỏi",
+            desc: (
+              <div>
+                <div className="h2">
+                  1. Những lưu ý khi sử dụng DHT11/DHT22?
+                </div>
+                <div className="h3">
+                  - Tất cả các cảm biến đều cần được bảo quản và sử dụng một
+                  cách cẩn thận. Đối với DHT11/DHT22, hãy chú ý đến điều kiện
+                  môi trường, cung cấp điện áp và dòng điện đúng, đợi đủ thời
+                  gian cho đo độ ẩm và nhiệt độ, kết nối chính xác, và kiểm tra
+                  định kỳ.
+                </div>
+                <div className="h2">
+                  1. Những lưu ý khi sử dụng DHT11/DHT22?
+                </div>
+                <div className="h3">Ưu điểm:</div>
+                <div className="h4">- Sử dụng chỉ một dây dẫn.</div>
+                <div className="h4">- Tiết kiệm chân giao tiếp.</div>
+                <div className="h4">- Đa thiết bị trên cùng một dây.</div>
+                <div className="h4">- Ổn định và đáng tin cậy.</div>
+                <div className="h3">Nhược điểm:</div>
+                <div className="h4">- Tốc độ truyền dữ liệu chậm.</div>
+                <div className="h4">- Giới hạn về khoảng cách.</div>
+                <div className="h4">- Khả năng xung đột dữ liệu.</div>
+                <div className="h4">
+                  - Độ chính xác và độ tin cậy không cao trong môi trường nhiễu.
+                </div>
+              </div>
+            ),
           },
           {
-            title: "Bài tập",
-            desc:
-            <div>
-              <a href="https://wokwi.com/projects/393070551218506753" target="_blank"
-                  rel="noreferrer" className="h2">Bài tập 1: bật tắt đèn bằng cảm biến nhiệt độ, độ ẩm</a>
-            </div>
-          }
-        ]
+            title: "# Bài tập",
+            desc: (
+              <div>
+                <a
+                  href="https://wokwi.com/projects/393070551218506753"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="h2 underline"
+                >
+                  Bài tập 1: bật tắt đèn bằng cảm biến nhiệt độ, độ ẩm
+                </a>
+              </div>
+            ),
+          },
+        ],
       },
       {
         id: 5,
         title: "Giao thức giao tiếp I2C",
         link: "/blogs/1/5",
-        thumbnail: img_0,
+        thumbnail: img_5,
         main_content: [
           {
-            title: "Giới thiệu I2C",
-            desc: <div>
-              <div className="h2">Chuẩn giao tiếp I2C là gì?</div>
-              <div className="h3">I2C hay IIC (Inter – Integrated Circuit) là 1 giao thức giao tiếp nối tiếp đồng bộ được phát triển bởi Philips Semiconductors, sử dụng để truyền nhận dữ liệu giữa các IC với nhau chỉ sử dụng hai đường truyền tín hiệu.</div>
-              <div className="h3">
-              - SDA (Serial Data) - đường truyền cho master và slave để gửi và nhận dữ liệu.
-              - SCL (Serial Clock) - đường mang tín hiệu xung nhịp.
-              </div>
+            title: "# Giới thiệu I2C",
+            desc: (
+              <div>
+                <div className="h2">Chuẩn giao tiếp I2C là gì?</div>
+                <div className="h3">
+                  I2C hay IIC (Inter – Integrated Circuit) là 1 giao thức giao
+                  tiếp nối tiếp đồng bộ được phát triển bởi Philips
+                  Semiconductors, sử dụng để truyền nhận dữ liệu giữa các IC với
+                  nhau chỉ sử dụng hai đường truyền tín hiệu.
+                </div>
+                <div className="h3">
+                  - SDA (Serial Data) - đường truyền cho master và slave để gửi
+                  và nhận dữ liệu. - SCL (Serial Clock) - đường mang tín hiệu
+                  xung nhịp.
+                </div>
 
-              <div className="h2">Cách hoạt động của I2C</div>
-              <div className="h3">
-                <img src="https://www.thegioiic.com/upload/large/44530.jpg" />
+                <div className="h2">Cách hoạt động của I2C</div>
+                <div className="h3">
+                  <img src="https://www.thegioiic.com/upload/large/44530.jpg" />
+                </div>
+                <div className="h3">
+                  <div>
+                    {" "}
+                    Mỗi thiết bị I2C có một địa chỉ duy nhất để xác định nó trên
+                    mạch.
+                  </div>
+                  <div>
+                    {" "}
+                    Trong quá trình truyền dữ liệu, master (thiết bị điều khiển)
+                    khởi tạo và điều khiển quá trình truyền dẫn dữ liệu.
+                  </div>
+                  <div>
+                    {" "}
+                    Master gửi một tín hiệu bắt đầu (Start) trên dây dữ liệu để
+                    bắt đầu một phiên truyền dữ liệu.
+                  </div>
+                  <div>
+                    {" "}
+                    Sau đó, master gửi địa chỉ của thiết bị mục tiêu cùng với
+                    bit điều khiển để chỉ định liệu thao tác là ghi (write) hoặc
+                    đọc (read).
+                  </div>
+                  <div>
+                    {" "}
+                    Cả master và thiết bị mục tiêu đồng ý về địa chỉ và chế độ
+                    hoạt động, sau đó dữ liệu được truyền đi hoặc nhận về.
+                  </div>
+                  <div>
+                    {" "}
+                    Cuối cùng, master gửi một tín hiệu kết thúc (Stop) để kết
+                    thúc phiên truyền dữ liệu.
+                  </div>
+                </div>
 
+                <div className="h2">Ứng dụng</div>
+                <div className="h3">
+                  <img src="https://car.mybk.vn/attachments/1642502377548-png.483/" />
+                </div>
+                <div className="h3">
+                  Giao thức I2C thường được sử dụng trong các ứng dụng như vi xử
+                  lý nhúng, cảm biến, bộ điều khiển, màn hình LCD, EEPROM
+                  (Electrically Erasable Programmable Read-Only Memory), và các
+                  thiết bị khác trên các board phát triển và các thiết bị IoT.
+                </div>
               </div>
-              <div className="h3">
-                <div> Mỗi thiết bị I2C có một địa chỉ duy nhất để xác định nó trên mạch.</div>
-                <div> Trong quá trình truyền dữ liệu, master (thiết bị điều khiển) khởi tạo và điều khiển quá trình truyền dẫn dữ liệu.</div>
-                <div> Master gửi một tín hiệu bắt đầu (Start) trên dây dữ liệu để bắt đầu một phiên truyền dữ liệu.</div>
-                <div> Sau đó, master gửi địa chỉ của thiết bị mục tiêu cùng với bit điều khiển để chỉ định liệu thao tác là ghi (write) hoặc đọc (read).</div>
-                <div> Cả master và thiết bị mục tiêu đồng ý về địa chỉ và chế độ hoạt động, sau đó dữ liệu được truyền đi hoặc nhận về.</div>
-                <div> Cuối cùng, master gửi một tín hiệu kết thúc (Stop) để kết thúc phiên truyền dữ liệu.</div>
-              </div>
-
-              <div className="h2">Ứng dụng</div>
-              <div className="h3">
-                <img src="https://car.mybk.vn/attachments/1642502377548-png.483/" />
-              </div>
-              <div className="h3">
-              Giao thức I2C thường được sử dụng trong các ứng dụng như vi xử lý nhúng, cảm biến, bộ điều khiển, màn hình LCD, EEPROM (Electrically Erasable Programmable Read-Only Memory), và các thiết bị khác trên các board phát triển và các thiết bị IoT.
-              </div>
-            </div>
-          }
-        ]
+            ),
+          },
+        ],
       },
       {
         id: 6,
         title: "Giao thức giao tiếp SPI",
         link: "/blogs/1/6",
-        thumbnail: img_0,
+        thumbnail: img_6,
         main_content: [
           {
-            title: "Giới thiệu về giao thức giao tiếp SPI",
-            desc: 
-            <div>
-              <div className="h2">Giao thức giao tiếp SPI là gì</div>
-              <div className="h3">SPI (Serial Peripheral Interface) là một giao diện truyền thông đồng bộ được sử dụng để giao tiếp giữa các thiết bị trong hệ thống điện tử. Nó cho phép truyền dữ liệu giữa một thiết bị master và nhiều thiết bị slave thông qua các đường tín hiệu chung.</div>
-              <div className="h3">
-                <img src="https://arduinokit.vn/wp-content/uploads/2023/05/giao-tiep-spi.png" />
-              </div>
-              <div className="h2">Cấu tạo</div>
-              <div className="h3">
-             <div>- SCLK (Serial Clock): Tín hiệu xung đồng hồ điều khiển cho việc đồng bộ truyền dữ liệu.</div>
-             <div>- MOSI (Master Out Slave In): Tín hiệu dữ liệu được truyền từ thiết bị master tới các thiết bị slave.</div>
-             <div>- MISO (Master In Slave Out): Tín hiệu dữ liệu được truyền từ các thiết bị slave về thiết bị master.</div>
-             <div>- SS/CS (Slave Select/Chip Select): Tín hiệu được sử dụng để chọn thiết bị slave nào sẽ tham gia truyền thông.</div>
-              </div>
+            title: "# Giới thiệu về giao thức giao tiếp SPI",
+            desc: (
+              <div>
+                <div className="h2">Giao thức giao tiếp SPI là gì</div>
+                <div className="h3">
+                  SPI (Serial Peripheral Interface) là một giao diện truyền
+                  thông đồng bộ được sử dụng để giao tiếp giữa các thiết bị
+                  trong hệ thống điện tử. Nó cho phép truyền dữ liệu giữa một
+                  thiết bị master và nhiều thiết bị slave thông qua các đường
+                  tín hiệu chung.
+                </div>
+                <div className="h3">
+                  <img src="https://arduinokit.vn/wp-content/uploads/2023/05/giao-tiep-spi.png" />
+                </div>
+                <div className="h2">Cấu tạo</div>
+                <div className="h3">
+                  <div>
+                    - SCLK (Serial Clock): Tín hiệu xung đồng hồ điều khiển cho
+                    việc đồng bộ truyền dữ liệu.
+                  </div>
+                  <div>
+                    - MOSI (Master Out Slave In): Tín hiệu dữ liệu được truyền
+                    từ thiết bị master tới các thiết bị slave.
+                  </div>
+                  <div>
+                    - MISO (Master In Slave Out): Tín hiệu dữ liệu được truyền
+                    từ các thiết bị slave về thiết bị master.
+                  </div>
+                  <div>
+                    - SS/CS (Slave Select/Chip Select): Tín hiệu được sử dụng để
+                    chọn thiết bị slave nào sẽ tham gia truyền thông.
+                  </div>
+                </div>
 
-              <div className="h2">Cách hoạt động</div>
-              <div className="h3">Nguyên lý hoạt động của giao tiếp SPI (Serial Peripheral Interface) là dựa trên việc truyền dữ liệu tuần tự giữa một thiết bị master và một hoặc nhiều thiết bị slave. Giao tiếp SPI sử dụng một tín hiệu clock chung và các tín hiệu truyền dữ liệu đồng thời trên các kênh tương ứng.</div>
-              <div className="h3">
-                <img src="https://arduinokit.vn/wp-content/uploads/2023/05/chuan-giao-tiep-spi-voi-nhieu-slaves-768x590.png" />
+                <div className="h2">Cách hoạt động</div>
+                <div className="h3">
+                  Nguyên lý hoạt động của giao tiếp SPI (Serial Peripheral
+                  Interface) là dựa trên việc truyền dữ liệu tuần tự giữa một
+                  thiết bị master và một hoặc nhiều thiết bị slave. Giao tiếp
+                  SPI sử dụng một tín hiệu clock chung và các tín hiệu truyền dữ
+                  liệu đồng thời trên các kênh tương ứng.
+                </div>
+                <div className="h3">
+                  <img src="https://arduinokit.vn/wp-content/uploads/2023/05/chuan-giao-tiep-spi-voi-nhieu-slaves-768x590.png" />
+                </div>
+                <div className="h2">Ứng dụng</div>
+                <div className="h3">
+                  Các thiết bị sử dụng spi như thẻ nhớ, module đọc thẻ rfid,
+                  receiver 2.4ghz đều dùng spi để giap tiếp với controller
+                </div>
+                <div className="h3 flex gap-4">
+                  <img src="https://media.canva.com/1/image-resize/1/690_380_100_PNG_F/czM6Ly9tZWRpYS1wcml2YXRlLmNhbnZhLmNvbS9FZVp2NC9NQUdBaGlFZVp2NC8xL3AucG5n?osig=AAAAAAAAAAAAAAAAAAAAAC8a5bTZGk1_p6h1lXlXoM0HUr6bsV4xCbYxd9SQmZAS&exp=1712908083&x-canva-quality=screen&csig=AAAAAAAAAAAAAAAAAAAAAFjZAjhdKXbZ8whTer5X1vSOBJlZJS7ww_MwAmxZRE4e" />
+                  <img src="https://media.canva.com/1/image-resize/1/200_167_100_PNG_F/czM6Ly9tZWRpYS1wcml2YXRlLmNhbnZhLmNvbS82SDRFRS9NQUdBaHA2SDRFRS8xL3AucG5n?osig=AAAAAAAAAAAAAAAAAAAAAFRIXG6SMC1J1oon-zKP_pXck5fB6GjZbeitqiKKWzfe&exp=1712907606&x-canva-quality=thumbnail&csig=AAAAAAAAAAAAAAAAAAAAAAWIL6G9ogC8GwmuS22RJoJ0jPc8Wqiom1Xk0CHxGXL1" />
+                </div>
               </div>
-              <div className="h2">Ứng dụng</div>
-              <div className="h3">Các thiết bị sử dụng spi như thẻ nhớ, module đọc thẻ rfid, receiver 2.4ghz đều dùng spi để giap tiếp với controller</div>
-              <div className="h3 flex gap-4">
-                <img src="https://media.canva.com/1/image-resize/1/690_380_100_PNG_F/czM6Ly9tZWRpYS1wcml2YXRlLmNhbnZhLmNvbS9FZVp2NC9NQUdBaGlFZVp2NC8xL3AucG5n?osig=AAAAAAAAAAAAAAAAAAAAAC8a5bTZGk1_p6h1lXlXoM0HUr6bsV4xCbYxd9SQmZAS&exp=1712908083&x-canva-quality=screen&csig=AAAAAAAAAAAAAAAAAAAAAFjZAjhdKXbZ8whTer5X1vSOBJlZJS7ww_MwAmxZRE4e" />
-                <img src="https://media.canva.com/1/image-resize/1/200_167_100_PNG_F/czM6Ly9tZWRpYS1wcml2YXRlLmNhbnZhLmNvbS82SDRFRS9NQUdBaHA2SDRFRS8xL3AucG5n?osig=AAAAAAAAAAAAAAAAAAAAAFRIXG6SMC1J1oon-zKP_pXck5fB6GjZbeitqiKKWzfe&exp=1712907606&x-canva-quality=thumbnail&csig=AAAAAAAAAAAAAAAAAAAAAAWIL6G9ogC8GwmuS22RJoJ0jPc8Wqiom1Xk0CHxGXL1" />
-              </div>
-
-            
-            </div>
+            ),
           },
           {
-            title: "Lập trình sử dụng giap tiếp spi với Arduino",
-            desc: 
-            <div>
-              <div className="h2">1. Kết nối phần cứng</div>
-              <div className="h3">
-             <div> Kết nối chân MOSI (Master Out Slave In) của Arduino với chân MOSI của thiết bị slave.</div>
-             <div> Kết nối chân MISO (Master In Slave Out) của Arduino với chân MISO của thiết bị slave.</div>
-             <div> Kết nối chân SCK (Serial Clock) của Arduino với chân SCK của thiết bị slave.</div>
-             <div> Kết nối chân SS (Slave Select) của Arduino với chân SS của thiết bị slave. Chân SS sẽ được sử dụng để chọn thiết bị slave mà bạn muốn truyền dữ liệu.</div>
-              </div>
-              <div className="h2">2. Khởi tạo giao thức SPI</div>
-              <div className="h3">
-              <div> Trong hàm setup(), sử dụng lệnh SPI.begin() để khởi tạo giao thức SPI trên Arduino.</div>
-               <div> Thiết lập các tùy chọn giao thức như tốc độ truyền (SPI.setClockDivider()), bit dữ liệu (SPI.setDataMode()) và bit đánh dấu (SPI.setBitOrder()). Điều này phụ thuộc vào thiết bị slave bạn đang sử dụng, vì vậy hãy kiểm tra datasheet của thiết bị để xác định các giá trị chính xác.</div>
-              </div>
+            title: "# Lập trình sử dụng giap tiếp spi với Arduino",
+            desc: (
+              <div>
+                <div className="h2">1. Kết nối phần cứng</div>
+                <div className="h3">
+                  <div>
+                    {" "}
+                    Kết nối chân MOSI (Master Out Slave In) của Arduino với chân
+                    MOSI của thiết bị slave.
+                  </div>
+                  <div>
+                    {" "}
+                    Kết nối chân MISO (Master In Slave Out) của Arduino với chân
+                    MISO của thiết bị slave.
+                  </div>
+                  <div>
+                    {" "}
+                    Kết nối chân SCK (Serial Clock) của Arduino với chân SCK của
+                    thiết bị slave.
+                  </div>
+                  <div>
+                    {" "}
+                    Kết nối chân SS (Slave Select) của Arduino với chân SS của
+                    thiết bị slave. Chân SS sẽ được sử dụng để chọn thiết bị
+                    slave mà bạn muốn truyền dữ liệu.
+                  </div>
+                </div>
+                <div className="h2">2. Khởi tạo giao thức SPI</div>
+                <div className="h3">
+                  <div>
+                    {" "}
+                    Trong hàm setup(), sử dụng lệnh SPI.begin() để khởi tạo giao
+                    thức SPI trên Arduino.
+                  </div>
+                  <div>
+                    {" "}
+                    Thiết lập các tùy chọn giao thức như tốc độ truyền
+                    (SPI.setClockDivider()), bit dữ liệu (SPI.setDataMode()) và
+                    bit đánh dấu (SPI.setBitOrder()). Điều này phụ thuộc vào
+                    thiết bị slave bạn đang sử dụng, vì vậy hãy kiểm tra
+                    datasheet của thiết bị để xác định các giá trị chính xác.
+                  </div>
+                </div>
 
-              <div className="h2">3. Truyền dữ liệu</div>
-              <div className="h3">
-                 <div> Để truyền dữ liệu từ master tới slave, sử dụng lệnh SPI.transfer(data) trong hàm loop(). Điền giá trị dữ liệu bạn muốn truyền vào tham số data. Hàm này sẽ trả về giá trị nhận được từ slave (nếu có).</div>
-                 <div> Để truyền dữ liệu từ slave về master, bạn cũng sử dụng lệnh SPI.transfer(data). Tuy nhiên, bạn cần kích hoạt trạng thái slave bằng cách giảm chân SS xuống mức LOW trước khi truyền dữ liệu và tăng lên mức HIGH sau khi hoàn thành.</div>
-              </div>
+                <div className="h2">3. Truyền dữ liệu</div>
+                <div className="h3">
+                  <div>
+                    {" "}
+                    Để truyền dữ liệu từ master tới slave, sử dụng lệnh
+                    SPI.transfer(data) trong hàm loop(). Điền giá trị dữ liệu
+                    bạn muốn truyền vào tham số data. Hàm này sẽ trả về giá trị
+                    nhận được từ slave (nếu có).
+                  </div>
+                  <div>
+                    {" "}
+                    Để truyền dữ liệu từ slave về master, bạn cũng sử dụng lệnh
+                    SPI.transfer(data). Tuy nhiên, bạn cần kích hoạt trạng thái
+                    slave bằng cách giảm chân SS xuống mức LOW trước khi truyền
+                    dữ liệu và tăng lên mức HIGH sau khi hoàn thành.
+                  </div>
+                </div>
 
-              <div className="h2">4. Giải phóng giao thức SPI</div>
-              <div className="h3">Khi không sử dụng giao thức SPI nữa, hãy sử dụng lệnh SPI.end() để giải phóng tài nguyên và tắt giao thức trên Arduino.</div>
-            </div>
-          }
-        ]
+                <div className="h2">4. Giải phóng giao thức SPI</div>
+                <div className="h3">
+                  Khi không sử dụng giao thức SPI nữa, hãy sử dụng lệnh
+                  SPI.end() để giải phóng tài nguyên và tắt giao thức trên
+                  Arduino.
+                </div>
+              </div>
+            ),
+          },
+        ],
       },
       {
         id: 7,
         title: "Các giao thức truyền thông trong IoT",
         link: "/blogs/1/7",
-        thumbnail: img_0,
+        thumbnail: img_7,
         main_content: [
           {
-            title: "Giới thiệu các giao thức truyền thông trong IoT",
-            desc: 
-            <div>
-              <div className="h2">1. Message Queuing Telemetry Transport (MQTT)</div>
-              <div className="h3">MQTT là gì?</div>
-              <div className="h4">- MQTT là một giao thức kết nối internet vạn vật trong các ứng dụng M2M. Là một giao thức theo cơ chế xuất bản/đăng ký,  ở đó máy client có thể xuất bản hay nhận bản tin. Nó giúp giao tiếp dễ dàng giữa nhiều thiết bị. Nó là một giao thức nhắn tin đơn giản được thiết kế cho các thiết bị bị hạn chế và có băng thông thấp, vì vậy nó là một giải pháp hoàn hảo cho các ứng dụng internet vạn vật. Nó là một giao thức cực kỳ nhẹ cho việc truyền tải bản tin đăng ký/xuất bản. Nó rất hữu ích cho việc kết nối với vị trí ở xa nơi có băng thông không cao.</div>
-              <div className="h3">Đặc điểm của MQTT</div>
-              <div className="h4">
-             <div> Nó không yêu cầu cả Client và Server phải thiết lập kết nối cùng một lúc.</div>
-             <div> Nó cho phép Client đăng ký lựa chọn chủ đề để họ có thể nhận được thông tin họ đang tìm kiếm nhanh chóng.</div>
-             <div> Nó cung cấp truyền dữ liệu nhanh hơn, giống như cách WhatsApp / messenger cung cấp việc phân phối nhanh hơn. Đó là một giao thức nhắn tin thời gian thực.</div>
-             <div> Nó được thiết kế như một giao thức nhắn tin đơn giản và nhẹ sử dụng hệ thống xuất bản / đăng ký để trao đổi thông tin giữa Client và Server.</div>
-             <div> Nó là một giao thức máy với máy, tức là nó cung cấp giao tiếp giữa các thiết bị.</div>
-              </div>
-              <div className="h3">Ứng dụng</div>
-              <div className="h4">
-              <div> Facebook hiện đang sử dụng MQTT cho ứng dụng Messenger của mình, không chỉ vì giao thức tiết kiệm pin trong quá trình nhắn tin giữa điện thoại di động với điện thoại, mà còn vì giao thức này cho phép gửi bản tin một cách hiệu quả trong mili giây (mili giây), bất chấp kết nối internet không nhất quán trên toàn cầu .</div>
+            title: "# Giới thiệu các giao thức truyền thông trong IoT",
+            desc: (
+              <div>
+                <div className="h2">
+                  1. Message Queuing Telemetry Transport (MQTT)
+                </div>
+                <div className="h3">MQTT là gì?</div>
+                <div className="h4">
+                  - MQTT là một giao thức kết nối internet vạn vật trong các ứng
+                  dụng M2M. Là một giao thức theo cơ chế xuất bản/đăng ký, ở đó
+                  máy client có thể xuất bản hay nhận bản tin. Nó giúp giao tiếp
+                  dễ dàng giữa nhiều thiết bị. Nó là một giao thức nhắn tin đơn
+                  giản được thiết kế cho các thiết bị bị hạn chế và có băng
+                  thông thấp, vì vậy nó là một giải pháp hoàn hảo cho các ứng
+                  dụng internet vạn vật. Nó là một giao thức cực kỳ nhẹ cho việc
+                  truyền tải bản tin đăng ký/xuất bản. Nó rất hữu ích cho việc
+                  kết nối với vị trí ở xa nơi có băng thông không cao.
+                </div>
+                <div className="h3">Đặc điểm của MQTT</div>
+                <div className="h4">
+                  <div>
+                    {" "}
+                    Nó không yêu cầu cả Client và Server phải thiết lập kết nối
+                    cùng một lúc.
+                  </div>
+                  <div>
+                    {" "}
+                    Nó cho phép Client đăng ký lựa chọn chủ đề để họ có thể nhận
+                    được thông tin họ đang tìm kiếm nhanh chóng.
+                  </div>
+                  <div>
+                    {" "}
+                    Nó cung cấp truyền dữ liệu nhanh hơn, giống như cách
+                    WhatsApp / messenger cung cấp việc phân phối nhanh hơn. Đó
+                    là một giao thức nhắn tin thời gian thực.
+                  </div>
+                  <div>
+                    {" "}
+                    Nó được thiết kế như một giao thức nhắn tin đơn giản và nhẹ
+                    sử dụng hệ thống xuất bản / đăng ký để trao đổi thông tin
+                    giữa Client và Server.
+                  </div>
+                  <div>
+                    {" "}
+                    Nó là một giao thức máy với máy, tức là nó cung cấp giao
+                    tiếp giữa các thiết bị.
+                  </div>
+                </div>
+                <div className="h3">Ứng dụng</div>
+                <div className="h4">
+                  <div>
+                    {" "}
+                    Facebook hiện đang sử dụng MQTT cho ứng dụng Messenger của
+                    mình, không chỉ vì giao thức tiết kiệm pin trong quá trình
+                    nhắn tin giữa điện thoại di động với điện thoại, mà còn vì
+                    giao thức này cho phép gửi bản tin một cách hiệu quả trong
+                    mili giây (mili giây), bất chấp kết nối internet không nhất
+                    quán trên toàn cầu .
+                  </div>
 
-              <div> Hầu hết các nhà cung cấp dịch vụ đám mây lớn, bao gồm Amazon Web Services (AWS), Google Cloud, IBM Cloud và Microsoft Azure, đều hỗ trợ MQTT.</div>
+                  <div>
+                    {" "}
+                    Hầu hết các nhà cung cấp dịch vụ đám mây lớn, bao gồm Amazon
+                    Web Services (AWS), Google Cloud, IBM Cloud và Microsoft
+                    Azure, đều hỗ trợ MQTT.
+                  </div>
 
-              <div> MQTT rất phù hợp với các ứng dụng sử dụng thiết bị M2M và IoT cho các mục đích như phân tích thời gian thực, bảo trì phòng ngừa và giám sát môi trường, bao gồm nhà thông minh, chăm sóc sức khỏe, hậu cần, công nghiệp và sản xuất.</div>
-              </div>
-              <div className="h2">2. HyperText Transfer Protocol (HTTP)</div>
-              <div className="h3">HTTP là gì?</div>
-              <div className="h4">
-              <div> HTTP là viết tắt của HyperText Transfer Protocol, một giao thức ứng áp dụng cho các hệ thống thông tin siêu phương tiện phân tán, cộng tác, cho phép người dùng giao tiếp dữ liệu trên World Wide Web</div>
+                  <div>
+                    {" "}
+                    MQTT rất phù hợp với các ứng dụng sử dụng thiết bị M2M và
+                    IoT cho các mục đích như phân tích thời gian thực, bảo trì
+                    phòng ngừa và giám sát môi trường, bao gồm nhà thông minh,
+                    chăm sóc sức khỏe, hậu cần, công nghiệp và sản xuất.
+                  </div>
+                </div>
+                <div className="h2">2. HyperText Transfer Protocol (HTTP)</div>
+                <div className="h3">HTTP là gì?</div>
+                <div className="h4">
+                  <div>
+                    {" "}
+                    HTTP là viết tắt của HyperText Transfer Protocol, một giao
+                    thức ứng áp dụng cho các hệ thống thông tin siêu phương tiện
+                    phân tán, cộng tác, cho phép người dùng giao tiếp dữ liệu
+                    trên World Wide Web
+                  </div>
 
-              <div>Ví dụ: http: // www ……..: URL bắt đầu bằng đoạn HTTP</div>
+                  <div>
+                    Ví dụ: http: // www ……..: URL bắt đầu bằng đoạn HTTP
+                  </div>
 
-               <div> Cụ thể hơn, HTTP là một giao thức yêu cầu/phản hồi không trạng thái, nơi các Client yêu cầu thông tin từ Server và Server sẽ phản hồi các yêu cầu này theo đó (mỗi yêu cầu độc lập với yêu cầu khác). Nó cho phép tìm nạp các tài nguyên, chẳng hạn như tài liệu HTML</div>
-              </div>
+                  <div>
+                    {" "}
+                    Cụ thể hơn, HTTP là một giao thức yêu cầu/phản hồi không
+                    trạng thái, nơi các Client yêu cầu thông tin từ Server và
+                    Server sẽ phản hồi các yêu cầu này theo đó (mỗi yêu cầu độc
+                    lập với yêu cầu khác). Nó cho phép tìm nạp các tài nguyên,
+                    chẳng hạn như tài liệu HTML
+                  </div>
+                </div>
 
-              <div className="h3">Mục đích của giao thức HTTP</div>
-              <div className="h4">HTTP được phát minh cùng với HTML để tạo ra trình duyệt web dựa trên văn bản, tương tác đầu tiên: World Wide Web ban đầu. Ngày nay, giao thức này vẫn là một trong những phương tiện chính để sử dụng Internet .</div>
-              <div className="h4">
-                <img src="https://www.daviteq.com/blog/wp-content/uploads/2020/09/WP_2006_H7_Data_through_the_internet-e1600672192270.png" />
-              </div>
-              <div className="h3">Ứng dụng</div>
-              <div className="h4">
-              Giao thức HTTP được sử dụng để khởi động World Wide Web để truyền dữ liệu dưới dạng văn bản, âm thanh, hình ảnh và video từ Server đến trình duyệt web của người dùng và ngược lại. HTTP hiện là nền tảng truyền dữ liệu của ứng dụng duyệt web ngày nay và được sử dụng rộng rãi trong hệ thống Internet of Things. Mặc dù giao thức Http có nhiều nhược điểm trong việc truyền dữ liệu và không phù hợp bằng các giao thức tối ưu khác như MQTT, CoAP, AMQP sử dụng cho IoT, nhưng giao thức này vẫn phổ biến trong lĩnh vực nhà thông minh cũng như việc sử dụng nhiều trong bộ vi điều khiển và vi xử lý tiên tiến.
-              </div>
+                <div className="h3">Mục đích của giao thức HTTP</div>
+                <div className="h4">
+                  HTTP được phát minh cùng với HTML để tạo ra trình duyệt web
+                  dựa trên văn bản, tương tác đầu tiên: World Wide Web ban đầu.
+                  Ngày nay, giao thức này vẫn là một trong những phương tiện
+                  chính để sử dụng Internet .
+                </div>
+                <div className="h4">
+                  <img src="https://www.daviteq.com/blog/wp-content/uploads/2020/09/WP_2006_H7_Data_through_the_internet-e1600672192270.png" />
+                </div>
+                <div className="h3">Ứng dụng</div>
+                <div className="h4">
+                  Giao thức HTTP được sử dụng để khởi động World Wide Web để
+                  truyền dữ liệu dưới dạng văn bản, âm thanh, hình ảnh và video
+                  từ Server đến trình duyệt web của người dùng và ngược lại.
+                  HTTP hiện là nền tảng truyền dữ liệu của ứng dụng duyệt web
+                  ngày nay và được sử dụng rộng rãi trong hệ thống Internet of
+                  Things. Mặc dù giao thức Http có nhiều nhược điểm trong việc
+                  truyền dữ liệu và không phù hợp bằng các giao thức tối ưu khác
+                  như MQTT, CoAP, AMQP sử dụng cho IoT, nhưng giao thức này vẫn
+                  phổ biến trong lĩnh vực nhà thông minh cũng như việc sử dụng
+                  nhiều trong bộ vi điều khiển và vi xử lý tiên tiến.
+                </div>
 
-              <div className="h2">3. Constrained Application Protocol (CoAP)</div>
-              <div className="h3">CoAP là gì?</div>
-              <div className="h4">
-              CoAP là một giao thức đơn giản chi phí thấp được thiết kế riêng cho các thiết bị hiệu năng thấp (chẳng hạn như vi điều khiển) và nơi mạng có băng thông thấp. Giao thức này được sử dụng để trao đổi dữ liệu M2M và rất giống với HTTP.
-              </div>
-              <div className="h3">Các tính năng chính của CoAP</div>
-              <div className="h4">
-             <div>+ Giao thức web nhỏ gọn được sử dụng trong M2M.</div>
-             <div>+ Bảo mật bằng DTLS.</div>
-             <div>+ Trao đổi thông điệp không đồng bộ.</div>
-             <div>+ Header gói tin nhỏ, dễ tách thông tin.</div>
-             <div>+ Hỗ trợ URI và loại nội dung.</div>
-             <div>+ Khả năng proxy và bộ nhớ đệm.</div>
-             <div>+ Tuỳ chọn khai thác tài nguyên.</div>
-             <div>+ Liên kết UDP (User Datagram Protocol) với độ tin cậy tùy chọn hỗ trợ các yêu cầu Unicast và Multicast.</div>
-              </div>
+                <div className="h2">
+                  3. Constrained Application Protocol (CoAP)
+                </div>
+                <div className="h3">CoAP là gì?</div>
+                <div className="h4">
+                  CoAP là một giao thức đơn giản chi phí thấp được thiết kế
+                  riêng cho các thiết bị hiệu năng thấp (chẳng hạn như vi điều
+                  khiển) và nơi mạng có băng thông thấp. Giao thức này được sử
+                  dụng để trao đổi dữ liệu M2M và rất giống với HTTP.
+                </div>
+                <div className="h3">Các tính năng chính của CoAP</div>
+                <div className="h4">
+                  <div>+ Giao thức web nhỏ gọn được sử dụng trong M2M.</div>
+                  <div>+ Bảo mật bằng DTLS.</div>
+                  <div>+ Trao đổi thông điệp không đồng bộ.</div>
+                  <div>+ Header gói tin nhỏ, dễ tách thông tin.</div>
+                  <div>+ Hỗ trợ URI và loại nội dung.</div>
+                  <div>+ Khả năng proxy và bộ nhớ đệm.</div>
+                  <div>+ Tuỳ chọn khai thác tài nguyên.</div>
+                  <div>
+                    + Liên kết UDP (User Datagram Protocol) với độ tin cậy tùy
+                    chọn hỗ trợ các yêu cầu Unicast và Multicast.
+                  </div>
+                </div>
 
-              <div className="h3">Ứng dụng</div>
-              <div className="h4">Thiết bị thông tin, thiết bị điều khiển và thiết bị truyền thông trong mạng nhà thông minh có đặc điểm là chi phí thấp và nhẹ. Do đó, CoAP có thể được coi là sự lựa chọn giao thức tốt nhất cho mạng truyền thông gia đình.</div>
-            </div>
-          }
-        ]
+                <div className="h3">Ứng dụng</div>
+                <div className="h4">
+                  Thiết bị thông tin, thiết bị điều khiển và thiết bị truyền
+                  thông trong mạng nhà thông minh có đặc điểm là chi phí thấp và
+                  nhẹ. Do đó, CoAP có thể được coi là sự lựa chọn giao thức tốt
+                  nhất cho mạng truyền thông gia đình.
+                </div>
+              </div>
+            ),
+          },
+        ],
       },
       {
         id: 8,
         title: "WebServer",
         link: "/blogs/1/8",
-        thumbnail: img_0,
+        thumbnail: img_8,
         main_content: [
           {
-            title: "Giới thiệu Web Server",
-            desc:
-            <div>
-              <div className="h2">
-                Web server là gì?
+            title: "# Giới thiệu Web Server",
+            desc: (
+              <div>
+                <div className="h2">Web server là gì?</div>
+                <div className="h3">
+                  Web server là máy chủ cài đặt các chương trình phục vụ các ứng
+                  dụng web. Webserver có khả năng tiếp nhận request từ các trình
+                  duyệt web và gửi phản hồi đến client thông qua giao thức HTTP
+                  hoặc các giao thức khác.
+                </div>
+
+                <div className="h2">Wifi Lib</div>
+                <div className="h3">
+                  Cho phép thiết lập kết nối mạng (cục bộ và internet) module
+                  wifi. Với thư viện này có thể khởi tạo máy chủ , máy khách và
+                  gửi/ nhận các gói UDP qua wifi.Module có thể kết nối với các
+                  mạng mở hoặc được mã hóa(WEP,WPA).Địa chỉ IP có thể được gán
+                  tĩnh hoặc thông qua DHCP.Thư viện cũng có thể quản lý DNS.
+                </div>
+
+                <div className="h2">Wifi mode ESP32</div>
+                <div className="h3">
+                  Chức năng kết nối wifi, có thể lập trình trong chương trình.
+                  Có 3 chế độ wifi.
+                </div>
+                <div className="h4">+ Access Point Mode</div>
+                <div className="h4">+ Station Mode</div>
+                <div className="h4">+ Both Access Point and Station</div>
+
+                <div className="h3">
+                  Để đặt chế độ wifi, sử dụng thư viện Wifi.h và xác định chế độ
+                  wifi bằng hàm Wifi.mode()
+                </div>
+
+                <div className="h3">State mode</div>
+                <div className="h4">
+                  khi ở Station mode, ESP32 kết nối wifi với mạng khác.Trong Bộ
+                  định tuyến cấp 1 địa chỉ IP duy nhất cho ESP32. Có thể giao
+                  tiếp với ESP bằng cách sử dụng các thiết bị (station) khác
+                  cũng được kết nối với cùng 1 mạng.Kết nối Internet thông qua
+                  Access Point.
+                </div>
+                <div className="h4">
+                  khi ở Access Point mode, ESP32 là điểm truy cập, ESP32 sẽ tạo
+                  1 mạng wifi của chính nó và các thiết bị (station) wifi gần đó
+                  có thể kết nối với nó.Vì vậy, không cần phải kết nối với bộ
+                  định tuyến để điều khiển ESP.
+                </div>
+                <div className="h4">
+                  Khi ở Access Point & STA mode, ESP32 là điểm truy cập, ESP32
+                  sẽ tạo 1 mạng wifi của chính nó và các thiết bị (station) wifi
+                  gần đó có thể kết nối với nó. Vì vậy, không cần phải kết nối
+                  với bộ định tuyến để điều khiển ESP.
+                </div>
               </div>
-              <div className="h3">
-                Web server là máy chủ cài đặt các chương trình phục vụ các ứng dụng web. Webserver có khả năng tiếp nhận request từ các trình duyệt web và gửi phản hồi đến client thông qua giao thức HTTP hoặc các giao thức khác.
-              </div>
-
-              <div className="h2">Wifi Lib</div>
-              <div className="h3">Cho phép thiết lập kết nối mạng (cục bộ và internet) module wifi. Với thư viện này có thể khởi tạo máy chủ , máy khách và gửi/ nhận các gói UDP qua wifi.Module có thể kết nối với các mạng mở hoặc được mã hóa(WEP,WPA).Địa chỉ IP có thể được gán tĩnh hoặc thông qua DHCP.Thư viện cũng có thể quản lý DNS.</div>
-            
-              <div className="h2">Wifi mode ESP32</div>
-              <div className="h3">
-                Chức năng kết nối wifi, có thể lập trình trong chương trình. Có 3  chế độ wifi.
-
-              </div>
-              <div className="h4">+ Access Point Mode</div>
-              <div className="h4">+ Station Mode</div>
-              <div className="h4">+ Both Access Point and Station</div>
-
-              <div className="h3">Để đặt chế độ wifi, sử dụng thư viện Wifi.h và xác định chế độ wifi bằng hàm Wifi.mode()</div>
-
-              <div className="h3">State mode</div>
-              <div className="h4">khi ở Station mode, ESP32 kết nối wifi với mạng khác.Trong Bộ định tuyến cấp 1 địa chỉ IP duy nhất cho ESP32. Có thể giao tiếp với ESP bằng cách sử dụng các thiết bị (station) khác cũng được kết nối với cùng 1 mạng.Kết nối Internet thông qua Access Point.</div>
-              <div className="h4">khi ở Access Point mode, ESP32 là điểm truy cập, ESP32 sẽ tạo 1 mạng wifi của chính nó và các thiết bị (station) wifi gần đó có thể kết nối với nó.Vì vậy, không cần phải kết nối với bộ định tuyến để điều khiển ESP.</div>
-              <div className="h4">Khi ở Access Point & STA mode, ESP32 là điểm truy cập, ESP32 sẽ tạo 1 mạng wifi của chính nó và các thiết bị (station) wifi gần đó có thể kết nối với nó. Vì vậy, không cần phải kết nối với bộ định tuyến để điều khiển ESP.</div>
-            </div>
+            ),
           },
           {
-            title: "Câu hỏi",
-            desc: 
-            <div>
-              <div className="h2">Câu 1: So sánh webserver ở chế độ AP và STA</div>
-              <div className="h3">
-                1. Chế độ AP (Access Point):
+            title: "# Câu hỏi",
+            desc: (
+              <div>
+                <div className="h2">
+                  Câu 1: So sánh webserver ở chế độ AP và STA
+                </div>
+                <div className="h3">1. Chế độ AP (Access Point):</div>
+                <div className="h4">
+                  <div>
+                    Chế độ AP cho phép thiết bị tạo ra một mạng Wi-Fi riêng,
+                    giúp các thiết bị khác kết nối vào mạng này.
+                  </div>
+                  <div>
+                    Arduino hoạt động như một điểm truy cập Wi-Fi, các thiết bị
+                    khác có thể kết nối trực tiếp với Arduino thông qua mạng
+                    Wi-Fi được tạo ra bởi nó.
+                  </div>
+                  <div>
+                    Arduino sẽ chịu trách nhiệm cung cấp địa chỉ IP và cung cấp
+                    dịch vụ web cho các thiết bị kết nối.
+                  </div>
+                </div>
               </div>
-              <div className="h4">
-                <div>Chế độ AP cho phép thiết bị tạo ra một mạng Wi-Fi riêng, giúp các thiết bị khác kết nối vào mạng này.</div>
-                <div>Arduino hoạt động như một điểm truy cập Wi-Fi, các thiết bị khác có thể kết nối trực tiếp với Arduino thông qua mạng Wi-Fi được tạo ra bởi nó.</div>
-                <div>Arduino sẽ chịu trách nhiệm cung cấp địa chỉ IP và cung cấp dịch vụ web cho các thiết bị kết nối.</div>
-              </div>
-            </div>
+            ),
           },
           {
-            title: "Bài tập",
-            desc:
-            <div>
-              <a href="https://wokwi.com/projects/394217062829882369" target="_blank" className="h2">Bài tập nhóm: Bật tắt đèn thong qua webserver</a>
-            </div>
-          }
-        ]
+            title: "# Bài tập",
+            desc: (
+              <div>
+                <a
+                  href="https://wokwi.com/projects/394217062829882369"
+                  rel="noreferrer"
+                  target="_blank"
+                  className="h2 underline"
+                >
+                  Bài tập nhóm: Bật tắt đèn thông qua webserver
+                </a>
+              </div>
+            ),
+          },
+        ],
       },
       {
         id: 9,
         title: "MQTT",
         link: "/blogs/1/9",
-        thumbnail: img_0,
+        thumbnail: img_9,
         main_content: [
           {
-            title: "Giao thức MQTT",
-            desc:
-            <div>
-              <div className="h2">Giao thức MQTT là gì</div>
-              <div className="h3">MQTT(Message Queuing Telemetry Transport) là một </div>
-            </div>
-          }
-        ]
-      }
+            title: "# Giao thức MQTT",
+            desc: (
+              <div>
+                <div className="h2">Giao thức MQTT là gì</div>
+                <div className="h3">
+                  MQTT(Message Queuing Telemetry Transport) là một giao thức
+                  truyền tin nhắn, gửi dưới dạng publish/subscribe sử dụng cho
+                  các thiết bị internet of thing với băng thông thấp, độ tin cậy
+                  cao và khả năng được sử dụng trong mạng lưới không ổn định.
+                </div>
+                <div className="h3">
+                  Bởi vì giao thức này sử dụng băng thông thấp trong môi trường
+                  có độ trễ cao nên nó là một giao thức lý tưởng cho các ứng
+                  dụng M2M
+                </div>
+
+                <div className="h2">MQTT Broker</div>
+                <div className="h3">
+                  MQTT Broker hay máy chủ môi giới được coi như trung tâm, nó là
+                  điểm giao của tất cả các kết nối đến từ Client.
+                </div>
+                <div className="h2">MQTT Client</div>
+                <div className="h3">
+                  MQTT Client là các thiết bị ứng dụng Client kết nối đến Broker
+                  để thực hiên truyền nhận dữ liệu. Client thì được chia thành
+                  hai nhóm là Publisher và Subscriber. Một Client có thể có 1
+                  trong 2 nhiệm vụ hoặc cả 2.
+                </div>
+                <div className="h2">Cơ chế hoạt động</div>
+                <div className="h3">
+                  <div className="">
+                    1. Client bắt đầu bằng cách tạo kết nối Transmission Control
+                    Protocal/Interner Protocal tới broker bằng cách sử dụng cổng
+                    tiêu chuẩn hoặc cổng tuỳ chỉnh được xác định bởi các nhà
+                    phát triển broker.
+                  </div>
+                  <div className="">
+                    2. Các cổng tiêu chuẩn là 1883 cho giao tiếp không mã hoá và
+                    8883 cho giao tiếp được mã hoá - sử dụng Lớp cổng bảo mật
+                    SSL / Bảo mật lớp truyền tải TLS.Trong quá trình giao tiếp
+                    SSL/TLS, máy khách cần kiểm chứng và xác thực máy chủ.
+                  </div>
+                  <div className="">
+                    3. Sau đó, Client sẽ gửi bản tin lên broker nếu là Publisher
+                    hoặc nhận bản tin từ broker về nếu là Subscriber. Quá trình
+                    kết nối này sẽ được giữ đến khi kết thúc kết nối.
+                  </div>
+                  <div className="">
+                    4. Sau khi kết thúc để có thể truyền nhận MQTT, chúng ta lại
+                    tiếp tục quay lại các bước trên.
+                  </div>
+                </div>
+              </div>
+            ),
+          },
+          {
+            title: "# Bài tập",
+            desc: (
+              <div>
+                <a
+                  href="https://wokwi.com/projects/394307504098774017"
+                  rel="noreferrer"
+                  target="_blank"
+                  className="h2 underline"
+                >
+                  Bài tập nhóm: Bật tắt đèn led với MQTT
+                </a>
+                <a
+                  href="https://wokwi.com/projects/394312775032886273"
+                  rel="noreferrer"
+                  target="_blank"
+                  className="h2 underline"
+                >
+                  Bài tập nhóm: Đọc cảm biến DHT11 và gửi dữ liệu lên MQTT
+                </a>
+              </div>
+            ),
+          },
+        ],
+      },
+      {
+        id: 10,
+        title: "IoT Platform",
+        link: "/blogs/1/10",
+        thumbnail: img_10,
+        main_content: [
+          {
+            title: "# Khái quát về IoT Platform",
+            desc: (
+              <div>
+                <div className="h2">IoT Platform là gì</div>
+                <div className="h3">
+                  IoT platform là một công nghệ nhiều lớp cung cấp, quản lý và
+                  tự động hoá đơn giản các thiết bị được kết nối trong thế giới
+                  Internet of things.IoT Platform cung cấp một tập hợp các tính
+                  năng sẵn sàng để tăng tốc độc phát triển ứng dụng cho các
+                  thiết bị được kết nối cũng như chăm sóc khả năng mở rộng và
+                  khả năng tương thích giữa các thiết bị.
+                </div>
+                <div className="2">
+                  Các thành phần cơ bản của 1 IoT Platform
+                </div>
+                <div className="h3">1. Thiết bị</div>
+                <div className="h3">2. Phương thức kết nối</div>
+                <div className="h3">3. Bộ phận xử lý dữ liệu</div>
+                <div className="h3">4. Gian diện</div>
+                <div className="h3">
+                  <img
+                    src="https://lh7-us.googleusercontent.com/uVO1tR26GRu_ohPdVurmmVEsEfMAILM4hjrDofSZCtxPtABhAvhNu0ERaoCUIbS2OxivHBYb6Xlw12UerZKl87UcVtEzdh8TFAlriHioLbYCCZvmJh4olPORmiDhHWHrvpmg_R-9EEI0SAyrrQRX5EjUxg=s2048"
+                    alt=""
+                  />
+                </div>
+              </div>
+            ),
+          },
+          {
+            title: "# Câu hỏi",
+            desc: (
+              <div>
+                <div className="h2">
+                  Câu 1: Các yếu tố cần xem xét khi chọn một 1 IoT Platform?
+                </div>
+                <div className="h3">
+                  <div>
+                    {" "}
+                    Hỗ trợ thiết bị: Đảm bảo nền tảng hỗ trợ các loại thiết bị
+                    IoT mà bạn dự định sử dụng.
+                  </div>
+
+                  <div>
+                    {" "}
+                    Bảo mật: Đảm bảo nền tảng cung cấp các tính năng bảo mật
+                    mạnh mẽ để bảo vệ dữ liệu và thiết bị của bạn.
+                  </div>
+
+                  <div>
+                    {" "}
+                    Dễ tích hợp: Chọn nền tảng có khả năng tích hợp dễ dàng với
+                    các hệ thống hiện có của bạn và các dịch vụ khác.
+                  </div>
+
+                  <div>
+                    {" "}
+                    Quản lý dữ liệu: Đảm bảo nền tảng cung cấp các công cụ quản
+                    lý dữ liệu mạnh mẽ để thu thập, lưu trữ và phân tích dữ liệu
+                    IoT của bạn.
+                  </div>
+
+                  <div>
+                    {" "}
+                    Linh hoạt: Chọn nền tảng có khả năng linh hoạt để phát triển
+                    ứng dụng IoT theo nhu cầu cụ thể của bạn.
+                  </div>
+
+                  <div>
+                    {" "}
+                    Hỗ trợ và cộng đồng: Kiểm tra xem nền tảng có hỗ trợ tốt và
+                    cộng đồng phát triển lớn không để bạn có thể tận dụng tối đa
+                    các tài nguyên và kiến thức có sẵn.
+                  </div>
+
+                  <div>
+                    {" "}
+                    Chi phí: Xem xét chi phí triển khai và duy trì nền tảng, bao
+                    gồm cả cước phí sử dụng và cập nhật.
+                  </div>
+
+                  <div>
+                    {" "}
+                    Hiệu suất và mở rộng: Đảm bảo nền tảng có hiệu suất ổn định
+                    và khả năng mở rộng khi nhu cầu của bạn tăng.
+                  </div>
+                </div>
+                <div className="h2">
+                  Câu 2: Ưu và nhược điểm khi sử dụng giao tiếp Open source và
+                  thương mại?
+                </div>
+                <div className="h3">
+                  <div>Open source</div>
+                  <div>Ưu điểm</div>
+                  <div className="h4">
+                    Miễn phí hoặc giá rẻ: Phần mềm mã nguồn mở thường miễn phí
+                    hoặc có chi phí rất thấp so với các giải pháp thương mại.
+                    <br />
+                    Độ linh hoạt: Bạn có thể tùy chỉnh mã nguồn mở theo nhu cầu
+                    của bạn mà không gặp phải các ràng buộc giấy phép.
+                    <br />
+                    Cộng đồng phát triển lớn: Có một cộng đồng lớn các nhà phát
+                    triển làm việc cùng nhau để cải thiện và phát triển mã nguồn
+                    mở.
+                  </div>
+                  <div>Nhược điểm</div>
+                  <div className="h4">
+                    Hỗ trợ hạn chế: Hỗ trợ từ cộng đồng có thể không đảm bảo và
+                    không linh hoạt như các dịch vụ hỗ trợ thương mại.
+                    <br />
+                    Khả năng tích hợp: Các giải pháp mã nguồn mở có thể không
+                    tương thích tốt với các hệ thống hoặc thiết bị khác nhau so
+                    với các giải pháp thương mại có tính tương thích cao hơn.
+                  </div>
+
+                  <div>Thương mại</div>
+                  <div>Ưu điểm</div>
+                  <div className="h4">
+                    Hỗ trợ chuyên nghiệp: Cung cấp hỗ trợ khách hàng chuyên
+                    nghiệp, bao gồm hỗ trợ kỹ thuật, tư vấn triển khai và bảo
+                    trì.
+                    <br />
+                    Tính ổn định và tin cậy: Các sản phẩm thương mại thường được
+                    kiểm tra và chứng minh tính ổn định cao trước khi được phát
+                    hành.
+                    <br />
+                    Tính tương thích: Thường có tính tương thích cao với các hệ
+                    thống và thiết bị khác nhau.
+                  </div>
+                  <div>Nhược điểm</div>
+                  <div className="h4">
+                    Chi phí cao: Giải pháp thương mại thường có chi phí triển
+                    khai và sở hữu cao hơn so với các giải pháp mã nguồn mở.
+                    <br />
+                    Giới hạn tính linh hoạt: Bạn có thể gặp ràng buộc giấy phép
+                    và hạn chế về việc tùy chỉnh và phát triển mã nguồn.
+                  </div>
+                </div>
+
+                <div className="h2">Câu 3: Lưu ý khi sử dụng Blynk IoT?</div>
+                <div className="h3">
+                  Bảo mật: Đảm bảo rằng bạn đã cấu hình các biện pháp bảo mật đủ
+                  để bảo vệ dữ liệu và thiết bị của bạn khi sử dụng Blynk. Sử
+                  dụng mật khẩu mạnh và mã hóa dữ liệu là các biện pháp quan
+                  trọng.
+                  <br />
+                  Quản lý dự án: Tổ chức dự án của bạn một cách có tổ chức trên
+                  Blynk, bao gồm việc đặt tên thiết bị và các cảm biến một cách
+                  logic, giúp dễ dàng quản lý và theo dõi.
+                  <br />
+                  Kiểm soát truy cập: Xác định và kiểm soát quyền truy cập cho
+                  người dùng khác trong dự án của bạn để đảm bảo chỉ những người
+                  được ủy quyền mới có thể truy cập và điều khiển thiết bị.
+                  <br />
+                  Kiểm tra tính tương thích: Trước khi triển khai, đảm bảo kiểm
+                  tra tính tương thích của các thiết bị và cảm biến mà bạn muốn
+                  tích hợp với Blynk để đảm bảo chúng hoạt động tốt.
+                  <br />
+                  Hiệu suất: Theo dõi hiệu suất của ứng dụng và thiết bị của bạn
+                  trên Blynk để đảm bảo rằng chúng hoạt động một cách ổn định và
+                  hiệu quả.
+                  <br />
+                  Hỗ trợ và tài liệu: Sử dụng tài liệu và tài nguyên hỗ trợ của
+                  Blynk để tìm hiểu và giải quyết các vấn đề kỹ thuật một cách
+                  hiệu quả. br Cập nhật: Theo dõi các cập nhật và bản vá từ
+                  Blynk để đảm bảo rằng bạn luôn sử dụng phiên bản mới nhất với
+                  các tính năng và bảo mật được cải thiện.
+                </div>
+              </div>
+            ),
+          },
+          {
+            title: "# Bài tập",
+            desc: (
+              <div>
+                <div className="h2">
+                  <img
+                    src="https://lh6.googleusercontent.com/Fyk9bUk8W5-gD18QLPKtyeJUEnHwM_lXjjVo54_9jjLnI2VY1Me5zc3Uq18GUlQO5ceBVVthzS3CM7N0u4Y1EViSSeywpw2SduxYm1s60zYD_EWi4U7UVFKrgpfHXJdO7g=w1280"
+                    alt=""
+                  />
+                  <a
+                    href="https://wokwi.com/projects/394776108508657665"
+                    rel="noreferrer"
+                    target="_blank"
+                    className="underline"
+                  >
+                    Bài tập nhóm : Hiển thị nhiệt độ, độ ẩm lên Blynk
+                  </a>
+                </div>
+                <div className="h2">
+                  <img
+                    src="https://lh3.googleusercontent.com/uGyOHqz6WK0B4Cv7vcFlKNtvg3GMeSAaAeOfoHn9tCxYtjGbIyloB_bRaM3e09nAKn4hiuXJv4w03MZ11qka8_Eo4O3wlGy8IGLIFrXYJZXbN0SO8UNwBUVZgtuXBf61NQ=w1280"
+                    alt=""
+                  />
+                  <a
+                    href="https://wokwi.com/projects/394858162605998081"
+                    rel="noreferrer"
+                    target="_blank"
+                    className="underline"
+                  >
+                    Bài tập nhóm : điều khiển bật tắt led qua Blynk
+                  </a>
+                </div>
+
+                <div className="h2">
+                  <img src={img_baitap_off} alt="" />
+                  <img src={img_baitap_on} alt="" />
+                  <a
+                    href="https://wokwi.com/projects/394972685180348417"
+                    rel="noreferrer"
+                    target="_blank"
+                    className="underline"
+                  >
+                    Bật tắt led qua E-ra
+                  </a>
+                </div>
+              </div>
+            ),
+          },
+        ],
+      },
     ],
   },
 ];

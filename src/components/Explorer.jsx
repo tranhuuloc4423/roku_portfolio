@@ -58,6 +58,41 @@ const explorerItems = [
             path: "/blogs/1/3",
             icon: `${json_icon}`,
           },
+          {
+            name: "4.Giao tiếp giao thức OneWire",
+            path: "/blogs/1/4",
+            icon: `${json_icon}`,
+          },
+          {
+            name: "5.Giao thức giao tiếp I2CPage",
+            path: "/blogs/1/5",
+            icon: `${json_icon}`,
+          },
+          {
+            name: "6.Giao thức giao tiếp SPI",
+            path: "/blogs/1/6",
+            icon: `${json_icon}`,
+          },
+          {
+            name: "7.Các giao thức truyền thông",
+            path: "/blogs/1/7",
+            icon: `${json_icon}`,
+          },
+          {
+            name: "8.Webserver",
+            path: "/blogs/1/8",
+            icon: `${json_icon}`,
+          },
+          {
+            name: "9.MQTT",
+            path: "/blogs/1/9",
+            icon: `${json_icon}`,
+          },
+          {
+            name: "10.IoT Platform",
+            path: "/blogs/1/10",
+            icon: `${json_icon}`,
+          },
         ],
       },
     ],
