@@ -11,7 +11,7 @@ const BlogItem = () => {
       <Helmet>
         <title>Roku | Blogs</title>
       </Helmet>
-      <div className="flex gap-6 p-8 sm:flex-col md:flex-row lg:flex-row">
+      <div className="flex gap-6 p-8 sm:flex-col md:flex-row lg:flex-row lg:flex-wrap">
         {blogItems.map((blogItem, index) => (
           <Link
             to={`${blogItem.link}`}
